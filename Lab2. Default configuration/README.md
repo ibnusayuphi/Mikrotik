@@ -12,7 +12,7 @@ Pada gambar di atas, diperlihatkan beberapa konfigurasi default mikrotik, Beriku
 Interface merupakan jalur komunikasi yang dimiliki router untuk menghubungkan perangkat lain.
 Secara default:
 ether1 digunakan sebagai WAN (DHCP Client + Firewall NAT)
-ether2 sampai ether5 digunakan sebagai LAN (di masukan bridge)
+ether2 sampai ether5 dan juga wlan1 digunakan sebagai LAN (di masukan bridge)
 
 <img width="1366" height="768" alt="interfaces" src="https://github.com/user-attachments/assets/97a595fa-c3bd-423e-bd89-eab37324a83e" />
 
@@ -24,7 +24,7 @@ Secara default MikroTik membuat bridge bernama "bridge"
 
 <img width="864" height="92" alt="Screenshot 2026-06-24 145829" src="https://github.com/user-attachments/assets/b6689597-ed31-4050-954e-e872aa75b5fd" />
 
-Kemudian memasukkan ether2, ether3, ether4, dan ether5 ke dalam bridge tersebut.
+Kemudian memasukkan ether2, ether3, ether4, ether5, dan wlan1 ke dalam bridge tersebut.
 
 <img width="865" height="199" alt="Screenshot 2026-06-24 144629" src="https://github.com/user-attachments/assets/8ac17b55-8132-47db-a31b-1efae67d3fad" />
 
@@ -37,7 +37,7 @@ ether3 = jaringan B
 ether4 = jaringan C
 
 Dengan bridge:
-ether2, ether3, ether4, ether5 menjadi satu jaringan yang sama.
+ether2, ether3, ether4, ether5, wlan1 menjadi satu jaringan yang sama.
 
 3. IP Address
 
@@ -99,6 +99,10 @@ Pada default konfigurasi mikrotik remote tidak bisa dilakukan pada ether1, karen
 Secara default configuration, interface wireless sudah siap digunakan sebagai acces point
 
 <img width="402" height="368" alt="Screenshot 2026-06-24 155850" src="https://github.com/user-attachments/assets/2a14668d-bc84-4aa8-8c15-401b3cd3c04b" />
+
+
+
+Default Configuration pada MikroTik merupakan konfigurasi bawaan yang dibuat secara otomatis agar router dapat langsung digunakan sebagai perangkat jaringan tanpa perlu konfigurasi dari awal. Konfigurasi ini mencakup konfigurasi interface, bridge, IP address, DHCP Client, DHCP Server, DNS, firewall. Dengan adanya Default Configuration, proses instalasi dan penggunaan router menjadi lebih mudah, cepat, serta aman bagi pengguna yang baru mulai mengelola jaringan.
 
 
 
