@@ -88,4 +88,20 @@ chain=srcnat
 <img width="907" height="150" alt="firewallNAT" src="https://github.com/user-attachments/assets/d38a0049-a8ef-4202-a9bb-45d79966647c" />
 
 
+7. Firewall Filter Rule
+
+Pada default konfigurasi mikrotik remote tidak bisa dilakukan pada ether1, karena adanya firewall filter rule yang membatasi. ether1 hanya bisa digunakan sebagai sumber internet tidak bisa digunakan untuk meremote.
+
+<img width="901" height="374" alt="firewallFR" src="https://github.com/user-attachments/assets/64549531-21e4-4aa8-bba0-1801ea3b8bcb" />
+
+8. Wireless
+
+Secara default configuration, interface wireless sudah siap digunakan sebagai acces point
+
+<img width="402" height="368" alt="Screenshot 2026-06-24 155850" src="https://github.com/user-attachments/assets/2a14668d-bc84-4aa8-8c15-401b3cd3c04b" />
+
+
+
+
+
 
