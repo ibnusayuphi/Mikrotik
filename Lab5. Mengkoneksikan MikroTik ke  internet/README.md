@@ -8,6 +8,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
    - ether2 kita ubah jadi ether2-LAN(terkoneksi dengan pc klien)
 
 <img width="959" height="424" alt="Screenshot 2026-06-25 214703" src="https://github.com/user-attachments/assets/62072af4-b1ed-4317-9c84-d3994aae747e" />
+
 <br>
 
 <b>2. Selanjutnya kita akan konfigurasi DHCP client pada ether1</b>
@@ -28,14 +29,15 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 
  oke sudah terkoneksi ya
+ 
 <br>
 <b>4. Selanjutnya kita akan menambahkan ip untuk LAN</b>
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
 
 <img width="217" height="165" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/ee521220-b7fe-4209-b29c-10911340b6af" />
-<br>
 
+<br>
 <b>5. Selanjutnya agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b>
    - chain: srcnat
    - out interface: ether1-WAN
