@@ -24,6 +24,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 <br>
 <b>3. Kita coba test koneksi dari MikroTik ke internet menggunakan ping</b>
 
+
 <img width="471" height="142" alt="Screenshot 2026-06-25 215509" src="https://github.com/user-attachments/assets/b962ecd6-d036-44d2-a4b8-aafa504d4b56" />
 
    oke sudah terkoneksi ya
