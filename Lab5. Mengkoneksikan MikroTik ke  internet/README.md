@@ -39,6 +39,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 
 <br>
+
 <b>5. Selanjutnya agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b>
    - chain: srcnat
    - out interface: ether1-WAN
