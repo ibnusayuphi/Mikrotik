@@ -1,5 +1,5 @@
 
-<h1>Lab4. Command Line Interfaces (Terminal) pada MikroTik<h1>
+<h1>Lab4. Command Line Interfaces (Terminal) pada MikroTik</h1>
 Selain mengguanakan winbox, MikroTik juga bisa dikonfigurasi menggunakan mode CLI
 CLI atau Command Line Interfaces adalah perintah dalam bentuk teks pada terminal mikrotik.
 Router OS dapat dikonfig melalui CLI  menggunakan akses remote via winbox (terminal), putty(ssh), cmd(telnet).
@@ -30,7 +30,7 @@ Dengan fitur ini pengguna tidak perlu menghafal seluruh command
 Saat menggunakan CLI, tidak semua perintah harus diketik secara lengkap. MikroTik menyediakan fitur Auto Complete dengan tombol Tab pada keyboard.
 Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibanding mengetik seluruh command secara manual. Karena untuk menghindari typo dan melihat apakah menunya tersedia atau tidak
 
-<h3>Beberapa contoh Command di MikroTik<h3>
+<h3>Beberapa contoh Command di MikroTik</h3>
 
 <b>Menambahkan IP Address</b>
 
