@@ -18,7 +18,7 @@ Pada CLI, proses yang dilakukan sebenarnya sama, hanya saja dilakukan melalui pe
 
 Dari contoh tersebut dapat dilihat bahwa struktur CLI mengikuti menu yang ada pada Winbox. Karena itu, memahami letak konfigurasi pada GUI akan sangat membantu ketika menggunakan CLI.
 
-<h1>THE POWER OF TAB</h1>
+<h3>THE POWER OF TAB</h3>
 
 Jika lupa dengan command yang tersedia pada suatu menu, kita dapat menekan tombol Tab sebanyak dua kali. Maka MikroTik akan menampilkan daftar command yang dapat digunakan pada menu tersebut. Seperi ini jika kita menggunakannya
 
