@@ -37,5 +37,49 @@ Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibandi
 
 <img width="470" height="30" alt="Screenshot 2026-06-24 202938" src="https://github.com/user-attachments/assets/53ebc9dc-a93b-4359-a7c8-8489d8b3f3f8" />
 
+
 <b>Melihat IP Address yang terdaftar</b>
 <br>ip address print
+
+<img width="470" height="74" alt="Screenshot 2026-06-25 171954" src="https://github.com/user-attachments/assets/4adf4f10-5843-4dfc-9e27-da8afd7d9779" />
+
+
+<b>Mengganti identitas MikroTik
+<br>system identity set name=(isi sesuai kemauan)
+
+<img width="469" height="50" alt="Screenshot 2026-06-25 172152" src="https://github.com/user-attachments/assets/da2e9281-925d-4179-9f7b-3b12915dbbf2" />
+
+
+<b>Menambahkan user dengan hak akses full
+<br>user add name=ibnu group=full password=(sesuaikan)
+
+<img width="471" height="58" alt="Screenshot 2026-06-25 172529" src="https://github.com/user-attachments/assets/07f9b0c9-2c30-456f-af1a-d2b0fb20a261" />
+
+
+<b>Melihat user
+<br>user print
+
+<img width="470" height="107" alt="Screenshot 2026-06-25 172555" src="https://github.com/user-attachments/assets/9da1d67b-5412-47b1-af70-2e329da91842" />
+
+
+<b>Melihat lisensi
+<br>system license print
+
+<img width="471" height="88" alt="Screenshot 2026-06-25 172717" src="https://github.com/user-attachments/assets/09f2b6a4-4702-49fa-9b14-ad80cf9720c9" />
+
+
+
+<b>Mengganti nama interface
+<br>interface set name=(sesuaikan) ether1(isi dengan ether yang mau diganti namanya)
+
+<img width="470" height="62" alt="Screenshot 2026-06-25 172822" src="https://github.com/user-attachments/assets/0af88fbf-4158-4148-974c-728e3af0b455" />
+
+
+<b>Melihat interface
+<br>interface print
+
+<img width="470" height="122" alt="Screenshot 2026-06-25 172911" src="https://github.com/user-attachments/assets/0d2d3535-5a32-4335-8e15-157d3eb168dc" />
+
+
+<b>Kesimpulan
+CLI (Command Line Interface) merupakan cara melakukan konfigurasi MikroTik menggunakan perintah atau command yang diketik langsung pada terminal.
