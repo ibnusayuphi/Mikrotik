@@ -1,3 +1,5 @@
+
+<h1>Lab1. Logging in MikroTik</h1>
 Oke saat ini saya akan memberikan tutorial dasar yaitu tentang cara meremote routerboard. Untuk sebagian orang yang baru kenal dengan mikrotik mungkin hanya tau cara meremote routerboard menggunakan Winbox, tetapi sebenarnya banyak cara untuk meremote routerboard tersebut, yang beberapa akan dibahas di dalam Lab ini. Berikut adalah topologinya:
 
 1. Via Winbox
