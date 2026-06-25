@@ -35,7 +35,8 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
 
-<img width="217" height="165" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/ee521220-b7fe-4209-b29c-10911340b6af" />
+<img width="217" height="165" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/c91979b5-6a9f-48b7-b241-16ed3556ce7c" />
+
 
 <br>
 <b>5. Selanjutnya agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b>
