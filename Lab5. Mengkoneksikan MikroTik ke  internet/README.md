@@ -27,7 +27,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <img width="471" height="142" alt="Screenshot 2026-06-25 215509" src="https://github.com/user-attachments/assets/b962ecd6-d036-44d2-a4b8-aafa504d4b56" />
 
-   oke sudah terkoneksi ya
+ oke sudah terkoneksi ya
 <br>
 <b>4. Selanjutnya kita akan menambahkan ip untuk LAN</b>
    - Address: 192.168.100.1/24
