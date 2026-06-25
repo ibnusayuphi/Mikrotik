@@ -23,6 +23,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
    Tunggu hingga statusnya bound, itu berarti kita sudah mendapatkan ip dari server.
 
 <br>
+
 <b>3. Kita coba test koneksi dari MikroTik ke internet menggunakan ping</b>
 
 <img width="471" height="142" alt="Screenshot 2026-06-25 215509" src="https://github.com/user-attachments/assets/0a2bf897-f068-4d60-ace2-2d7ecd66d38a" />
@@ -31,6 +32,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
  oke sudah terkoneksi ya
  
 <br>
+
 <b>4. Selanjutnya kita akan menambahkan ip untuk LAN</b>
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
@@ -51,6 +53,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
    nahh gunanya firewall nat di sini untuk mengubah ip private klien menjadi ip public yang bisa mengakses internet
 
 <br>
+
    <b>6. Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
    - subnet mask: 255.255.255.0
