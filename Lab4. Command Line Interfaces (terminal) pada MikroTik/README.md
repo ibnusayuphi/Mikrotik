@@ -12,7 +12,7 @@ IP > Addresses > Add (+)
 Kemudian mengisi IP Address dan memilih interface yang akan digunakan.
 
 Pada CLI, proses yang dilakukan sebenarnya sama, hanya saja dilakukan melalui perintah teks. Menu yang biasanya diklik pada Winbox dituliskan dalam bentuk command. Sebagai contoh:
-ip address add address=192.168.100.1/24 interface=ether4
+<br>ip address add address=192.168.100.1/24 interface=ether4
 
 <img width="470" height="30" alt="Screenshot 2026-06-24 202938" src="https://github.com/user-attachments/assets/53ebc9dc-a93b-4359-a7c8-8489d8b3f3f8" />
 
@@ -33,4 +33,9 @@ Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibandi
 <h3>Beberapa contoh Command di MikroTik</h3>
 
 <b>Menambahkan IP Address</b>
+<br>ip address add address=192.168.100.1/24 interface=ether4
 
+<img width="470" height="30" alt="Screenshot 2026-06-24 202938" src="https://github.com/user-attachments/assets/53ebc9dc-a93b-4359-a7c8-8489d8b3f3f8" />
+
+<b>Melihat IP Address yang terdaftar</b>
+<br>ip address print
