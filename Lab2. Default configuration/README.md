@@ -1,3 +1,5 @@
+
+<h1>Lab2. Default configuration</h1>
 Default Configuration adalah konfigurasi awal yang otomatis dibuat ketika router pertama kali digunakan atau setelah di-reset dengan pengaturan bawaan.
 Konfigurasi ini dibuat agar router dapat langsung digunakan sebagai gateway internet sederhana tanpa harus melakukan konfigurasi dari nol.
 
