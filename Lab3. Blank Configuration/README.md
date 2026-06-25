@@ -1,3 +1,5 @@
+<h1>Lab3. Blank Configuration</h1>
+
 Blank configuration adalah kondisi di mana router tidak memiliki settingan apapun. seperti namanya "blank" yang berarti kosong.
 adapun cara untuk membuat blank configuration sebagai berikut:
 1. masuk ke menu system > Reset Configuration
