@@ -108,6 +108,6 @@ aktifkan juga pada NAT dan DHCP server agar klien mendapat ip otomatis dari serv
 
 
 <hr>
-<b>Kesimpulan</b>
+<b>Kesimpulan</b><br>
 QuickSet mempermudah proses konfigurasi dasar MikroTik dalam satu halaman. Fitur ini membantu melakukan konfigurasi dengan lebih cepat.
 
