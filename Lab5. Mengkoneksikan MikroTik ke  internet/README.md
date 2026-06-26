@@ -3,7 +3,7 @@
 Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <h3>1. Sumber internet IP dynamic</h3>
-   Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi
+   Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi<br>
    - ether1 kita ubah jadi ether1-WAN(terkoneksi ke internet)
    - ether2 kita ubah jadi ether2-LAN(terkoneksi dengan pc klien)
 
@@ -42,10 +42,10 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <br>
 
-<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b>
-ip > firewall > nat
-   - chain: srcnat
-   - out interface: ether1-WAN
+<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
+ip > firewall > nat<br>
+   - chain: srcnat<br>
+   - out interface: ether1-WAN<br>
    - action: masquerade
 
 <img width="478" height="428" alt="Screenshot 2026-06-25 220606" src="https://github.com/user-attachments/assets/25abd451-8977-4090-84d8-f88e3f1f27dd" />
@@ -86,6 +86,7 @@ Kita akan gunakan topologi berikut:
 - ether1 > ether1-WAN
 - ether2 > ether2-LAN
 
+<img width="959" height="424" alt="Screenshot 2026-06-25 214703" src="https://github.com/user-attachments/assets/62072af4-b1ed-4317-9c84-d3994aae747e" />
 
 
 
@@ -99,9 +100,9 @@ ip > address
 
   Jika IP berada pada jaringan yang berbeda, maka MikroTik tidak akan dapat terhubung ke gateway.
 
-<b>Menambahkan default route</b>
-ip > Routes
-Dst. Address: 0.0.0.0/0
+<b>Menambahkan default route</b><br>
+ip > Routes<br>
+Dst. Address: 0.0.0.0/0<br>
 Gateway: 192.168.137.1
 
 <img width="298" height="349" alt="Screenshot 2026-06-26 095805" src="https://github.com/user-attachments/assets/3b51dba7-54e8-4321-9ca9-13d1cbcb5fad" />
@@ -110,10 +111,10 @@ Gateway: 192.168.137.1
 Kenapa Dst Address-nya 0.0.0.0/0, bukan IP Google atau IP lain?
 Karena 0.0.0.0/0 adalah representasi dari semua jaringan.Jadi ketika router menerima paket data dan tidak menemukan tujuan tersebut di jaringan lokal, router akan menggunakan Default Route sebagai jalur keluarnya.
 
-<b>Menambahkan DNS</b>
-ip > dns
-servers: 8.8.8.8
-         1.1.1.1
+<b>Menambahkan DNS</b><br>
+ip > dns<br>
+servers: 8.8.8.8<br>
+         1.1.1.1<br>
 centang pada Allow Remote Requests
 
 <img width="323" height="317" alt="Screenshot 2026-06-26 095851" src="https://github.com/user-attachments/assets/6de55656-2e3f-42f7-b4d0-68ada774a3e4" />
@@ -122,9 +123,9 @@ centang pada Allow Remote Requests
 
 DNS digunakan untuk menerjemahkan nama domain menjadi alamat IP.Tanpa DNS, router masih dapat melakukan ping ke alamat IP, namun tidak dapat mengakses website menggunakan nama domain. Oleh karena itu, DNS diperlukan agar pengguna dapat mengakses internet menggunakan nama domain.
 
-<b>Test koneksi dari MikroTik ke Internet</b>
-ping 8.8.8.8
-ping google.com
+<b>Test koneksi dari MikroTik ke Internet</b><br>
+ping 8.8.8.8<br>
+ping google.com<br>
 
 <img width="473" height="209" alt="Screenshot 2026-06-26 100049" src="https://github.com/user-attachments/assets/2f42ddfb-bfad-4a99-836f-785bc9578777" />
 
@@ -141,10 +142,10 @@ yapp sudah berhasil terkoneksi
 
 <br>
 
-<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b>
-ip > firewall > nat
-   - chain: srcnat
-   - out interface: ether1-WAN
+<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
+ip > firewall > nat<br>
+   - chain: srcnat<br>
+   - out interface: ether1-WAN<br>
    - action: masquerade
 
 <img width="478" height="428" alt="Screenshot 2026-06-25 220606" src="https://github.com/user-attachments/assets/25abd451-8977-4090-84d8-f88e3f1f27dd" />
