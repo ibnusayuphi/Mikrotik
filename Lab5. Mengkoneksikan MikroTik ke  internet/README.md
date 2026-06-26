@@ -179,5 +179,7 @@ ping 8.8.8.8 dan ping google.com
 <img width="470" height="186" alt="Screenshot 2026-06-25 220747" src="https://github.com/user-attachments/assets/38b271d2-7298-4e8f-bf34-e7a77dd58822" />
 <img width="506" height="179" alt="Screenshot 2026-06-25 220905" src="https://github.com/user-attachments/assets/217e12ea-b2c2-4d2b-8d0d-c3711d0f2ff2" />
 
+dan yappp sudah terkoneksi, kita sudah berhasil mengkoneksikan mikrotik ke internet dengan dua cara yaitu dynamic dan statis. <br>
+
 <br>
 MikroTik dapat dihubungkan ke internet menggunakan dua metode, yaitu Dynamic IP dan Static IP. Dynamic IP memperoleh konfigurasi jaringan secara otomatis melalui DHCP Client, sedangkan Static IP mengharuskan kita untuk mengatur seluruh konfigurasi secara manual. Kedua metode memiliki fungsi yang sama, yaitu menghubungkan router ke internet, namun dipilih sesuai dengan kebutuhan dan kondisi jaringan yang digunakan.
