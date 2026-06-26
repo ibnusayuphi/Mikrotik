@@ -107,6 +107,6 @@ aktifkan juga pada NAT dan DHCP server agar klien mendapat ip otomatis dari serv
 <img width="425" height="182" alt="Screenshot 2026-06-26 155357" src="https://github.com/user-attachments/assets/1ae55de3-00c1-4ba4-ace0-ec78da4c7857" />
 
 
-
-
-
+<hr>
+<b>Kesimpulan</b>
+QuickSet mempermudah proses konfigurasi dasar MikroTik dalam satu halaman. Fitur ini membantu melakukan konfigurasi dengan lebih cepat.
