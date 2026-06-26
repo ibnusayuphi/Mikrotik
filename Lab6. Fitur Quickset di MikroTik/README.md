@@ -52,7 +52,7 @@ Pilih metode koneksi automatic, karena kita akan menjadi dhcp client
 <img width="448" height="140" alt="Screenshot 2026-06-26 152642" src="https://github.com/user-attachments/assets/2e0be2d9-6673-4f38-8a6a-e68312457881" />
 
 
-<b>Konfigurasi local network</b>
+<b>Konfigurasi local network</b><br>
 Kita masukan ip yang akan kita gunakan untuk jaringan lokal<br>
 aktifkan juga pada NAT dan DHCP server agar klien mendapat ip otomatis dari server
 
