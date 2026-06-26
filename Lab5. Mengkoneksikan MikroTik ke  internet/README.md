@@ -11,7 +11,8 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <br>
 
-<b>Selanjutnya kita akan konfigurasi DHCP client pada ether1</b>
+<b>Selanjutnya kita akan konfigurasi DHCP client pada ether1</b><br>
+ip > dhcp client
    - interface: ether1-WAN
    - Use Peer DNS: yes
    - Use Peer NTP: yes
