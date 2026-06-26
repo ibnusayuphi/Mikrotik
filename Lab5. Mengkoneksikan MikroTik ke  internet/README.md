@@ -78,7 +78,7 @@ oke sudah terkoneksi ya, itu artinya kita sudah berhasil mengkoneksikan MikroTik
 <br>
 <br>
 <h3>2. Sumber internet IP statis</h3>
-Pada praktikum ini, koneksi internet akan menggunakan metode Static IP, sehingga seluruh konfigurasi harus dilakukan secara manual. Berbeda dengan praktik di atas yang mendapatkan konfigurasi secara otomatis, pada Static IP kita harus harus mengisi sendiri IP Address, Gateway, dan DNS sesuai dengan informasi yang diberikan oleh ISP.
+Pada praktikum ini, koneksi internet akan menggunakan metode Static IP, sehingga seluruh konfigurasi harus dilakukan secara manual. Berbeda dengan praktik di atas yang mendapatkan konfigurasi secara otomatis atau dynamic, pada Static IP kita harus harus mengisi sendiri IP Address, Gateway, dan DNS sesuai dengan informasi yang diberikan oleh ISP.
 Kita akan gunakan topologi berikut:
 
 
