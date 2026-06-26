@@ -6,6 +6,8 @@ Jadi untuk mengkoneksikan MikroTik ke internet itu memiliki dua cara, yang perta
 Pada metode Dynamic IP, konfigurasi jaringan diperoleh secara otomatis dari DHCP Server melalui fitur DHCP Client. kita tidak perlu mengatur IP Address, Gateway, maupun DNS secara manual karena seluruh informasi tersebut akan diberikan oleh DHCP Server.
 Untuk lab kali ini kita akan menggunakan topologi berikut:
 
+<img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 12 (2)" src="https://github.com/user-attachments/assets/c5e2983e-e334-42c3-bf7c-1a71bd269d46" />
+
 
 <b>Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi</b><br>
    - ether1 kita ubah jadi ether1-WAN(terkoneksi ke internet)<br>
@@ -86,6 +88,9 @@ oke sudah terkoneksi ya, itu artinya kita sudah berhasil mengkoneksikan MikroTik
 <h3>2. Sumber internet IP statis</h3>
 Pada praktikum ini, koneksi internet akan menggunakan metode Static IP, sehingga seluruh konfigurasi harus dilakukan secara manual. Berbeda dengan praktik di atas yang mendapatkan konfigurasi secara otomatis atau dynamic, pada Static IP kita harus harus mengisi sendiri IP Address, Gateway, dan DNS sesuai dengan informasi yang diberikan oleh ISP.
 Kita akan gunakan topologi berikut:
+
+<img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 12 (1)" src="https://github.com/user-attachments/assets/64b06719-8b35-4df3-8563-d5618fa517ca" />
+
 
 
 <b>Seperti pada praktik di atas pertama kita akan mengubah terlebih dahulu nama interfacenya</b>
