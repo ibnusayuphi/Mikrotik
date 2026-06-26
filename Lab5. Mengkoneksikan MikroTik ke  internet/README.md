@@ -4,7 +4,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <h3>1. Sumber internet IP dynamic</h3>
    Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi<br>
-   - ether1 kita ubah jadi ether1-WAN(terkoneksi ke internet)
+   - ether1 kita ubah jadi ether1-WAN(terkoneksi ke internet)<br>
    - ether2 kita ubah jadi ether2-LAN(terkoneksi dengan pc klien)
 
 <img width="959" height="424" alt="Screenshot 2026-06-25 214703" src="https://github.com/user-attachments/assets/62072af4-b1ed-4317-9c84-d3994aae747e" />
