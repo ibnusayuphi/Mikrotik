@@ -34,7 +34,8 @@ ip > dhcp client
  
 <br>
 
-<b> Selanjutnya kita akan menambahkan ip untuk LAN</b>
+<b> Selanjutnya kita akan menambahkan ip untuk LAN</b><br>
+ip > address
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
 
