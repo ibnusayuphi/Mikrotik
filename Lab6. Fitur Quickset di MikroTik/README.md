@@ -37,6 +37,9 @@ Home Mesh adalah mode pada QuickSet yang digunakan untuk membuat beberapa Access
 <h3>Praktik menggunakan quickset</h3>
 Untuk praktik kali ini kita akan menggunakan topologi berikut:
 
+<img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 12" src="https://github.com/user-attachments/assets/3ff1e5d0-3ca1-499e-bd5e-d8634cb84dbf" />
+
+
 untuk topologi di atas akan menggunakan quickset mode home ap.<br>
 
 <b>Ubah terlebih dahulu mode pada quickset</b><br>
@@ -74,6 +77,9 @@ pastikan sudah mendapat ip dari server
 <hr>
 
 Selanjutnya kita akan mencoba fitur quickset dengan topologi yang berbeda, yaitu seperti berikut:<br>
+
+<img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 11" src="https://github.com/user-attachments/assets/0fd0a6f2-867b-437a-af9e-ffc61ff157e4" />
+
 
 masih menggunakan mode yang sama yaitu home ap<br>
 <b>Konfigurasi internet</b><br>
