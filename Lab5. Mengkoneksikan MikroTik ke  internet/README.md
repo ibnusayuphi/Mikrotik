@@ -58,7 +58,7 @@ ip > firewall > nat<br>
    <b>Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
    - subnet mask: 255.255.255.0<br>
-   isikan juga dnsnya
+isikan juga dnsnya
   - Preferred DNS: 8.8.8.8 
   - Alternate DNS: 8.8.4.4
   
