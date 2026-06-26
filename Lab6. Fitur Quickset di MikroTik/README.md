@@ -73,17 +73,17 @@ pastikan sudah mendapat ip dari server
 
 <hr>
 
-Selanjutnya kita akan mencoba fitur quickset dengan topologi yang berbeda, yaitu seperti berikut:
+Selanjutnya kita akan mencoba fitur quickset dengan topologi yang berbeda, yaitu seperti berikut:<br>
 
-masih menggunakan mode yang sama yaitu home ap
-<b>Konfigurasi internet</b>
+masih menggunakan mode yang sama yaitu home ap<br>
+<b>Konfigurasi internet</b><br>
 nahh untuk kali ini kita akan gunakan ip static, isi sesuai seperti topologi
 
 
 <img width="443" height="167" alt="Screenshot 2026-06-26 150734" src="https://github.com/user-attachments/assets/bd6f8f1c-da1a-40c1-b0a3-57d9e09a250b" />
 
 
-<b>Konfigurasi local network</b>
+<b>Konfigurasi local network</b><br>
 Kita masukan ip yang akan kita gunakan untuk jaringan lokal<br>
 aktifkan juga pada NAT dan DHCP server agar klien mendapat ip otomatis dari server
 
