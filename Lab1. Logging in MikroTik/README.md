@@ -2,6 +2,9 @@
 <h1>Lab1. Logging in MikroTik</h1>
 Oke saat ini saya akan memberikan tutorial dasar yaitu tentang cara meremote routerboard. Untuk sebagian orang yang baru kenal dengan mikrotik mungkin hanya tau cara meremote routerboard menggunakan Winbox, tetapi sebenarnya banyak cara untuk meremote routerboard tersebut, yang beberapa akan dibahas di dalam Lab ini. Berikut adalah topologinya:
 
+<img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 13" src="https://github.com/user-attachments/assets/68f5731d-8b1e-4495-b52f-105dec025873" />
+
+
 1. Via Winbox
 
 Yang pertama menggunakan Winbox. WinBox ini berjalan di Port 8291. Untuk mendapatkan WinBox kita bisa download di situs resmi MikroTik yaitu di www.Mikrotik.com/download. Oke langsung aja ke tutorialnya
