@@ -16,9 +16,9 @@ Wireless > pilih Wlan1 > Lalu enable(klik tanda centang di pojok kiri atas)
 <b>2. Membuat security profile</b>
 Masuk ke menu:<br>
 Wireless > Security Profiles<br>
-Buat profile baru dengan klik tanda +
-WPA Pre-Shared Key : Semangat45
-WPA2 Pre-Shared Key : Semangat45
+Buat profile baru dengan klik tanda +<br>
+WPA Pre-Shared Key : Semangat45<br>
+WPA2 Pre-Shared Key : Semangat45<br>
 
 <img width="316" height="298" alt="Screenshot 2026-06-27 193708" src="https://github.com/user-attachments/assets/defb27ff-fdc9-4caf-9946-03e3275416cb" />
 
