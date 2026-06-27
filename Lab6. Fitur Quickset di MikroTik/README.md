@@ -68,7 +68,7 @@ aktifkan juga pada NAT dan DHCP server agar klien mendapat ip otomatis dari serv
 <img width="473" height="209" alt="Screenshot 2026-06-26 100049" src="https://github.com/user-attachments/assets/caf43b7f-20c7-402e-b93c-ab02d7e55342" />
 
 
-<b>Test koneksi dari klien</b>
+<b>Test koneksi dari klien</b><br>
 pastikan sudah mendapat ip dari server
 
 <img width="506" height="179" alt="Screenshot 2026-06-25 220905" src="https://github.com/user-attachments/assets/02b58977-3448-4630-8e53-3f26c91e32af" />
