@@ -76,7 +76,7 @@ ip > firewall > nat<br>
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
 
-<b>Test ping dari sisi klien</b>
+<b>Test ping dari sisi klien</b><br>
 ping 8.8.8.8 dan ping google.com
 
 <img width="470" height="186" alt="Screenshot 2026-06-25 220747" src="https://github.com/user-attachments/assets/38b271d2-7298-4e8f-bf34-e7a77dd58822" />
@@ -86,6 +86,7 @@ oke sudah terkoneksi ya, itu artinya kita sudah berhasil mengkoneksikan MikroTik
 
 <br>
 <br>
+<hr>
 <h3>2. Sumber internet IP statis</h3>
 Pada praktikum ini, koneksi internet akan menggunakan metode Static IP, sehingga seluruh konfigurasi harus dilakukan secara manual. Berbeda dengan praktik di atas yang mendapatkan konfigurasi secara otomatis atau dynamic, pada Static IP kita harus harus mengisi sendiri IP Address, Gateway, dan DNS sesuai dengan informasi yang diberikan oleh ISP.
 Kita akan gunakan topologi berikut:
@@ -94,7 +95,7 @@ Kita akan gunakan topologi berikut:
 
 
 
-<b>Seperti pada praktik di atas pertama kita akan mengubah terlebih dahulu nama interfacenya</b>
+<b>Seperti pada praktik di atas, pertama kita akan mengubah terlebih dahulu nama interfacenya</b>
 - ether1 > ether1-WAN
 - ether2 > ether2-LAN
 
@@ -102,16 +103,15 @@ Kita akan gunakan topologi berikut:
 
 
 
-<b>Menambahkan IP address</b>
-ip > address
-- address: 192.168.137.2/24 (ini disesuaikan dengan ip yang diberikan oleh isp)
-- interface: ether1
+<b>Menambahkan IP address</b> <br>
+ip > address<br>
+- address: 192.168.137.2/24 (ini disesuaikan dengan ip yang diberikan oleh isp)<br>
+- interface: ether1<br>
 
 <img width="265" height="262" alt="Screenshot 2026-06-26 095727" src="https://github.com/user-attachments/assets/d5dad070-2524-478b-b7ab-290e9c424585" />
 
 
-  Jika IP berada pada jaringan yang berbeda, maka MikroTik tidak akan dapat terhubung ke gateway.
-
+ 
 <b>Menambahkan default route</b><br>
 ip > Routes<br>
 Dst. Address: 0.0.0.0/0<br>
