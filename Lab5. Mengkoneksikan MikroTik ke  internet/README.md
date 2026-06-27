@@ -65,12 +65,13 @@ ip > firewall > nat<br>
 
    <b>Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
-   - subnet mask: 255.255.255.0<br>
-isikan juga dnsnya
+   - subnet mask: 255.255.255.0
+   - gateway: 192.168.100.1
   - Preferred DNS: 8.8.8.8 
   - Alternate DNS: 8.8.4.4
   
-<img width="300" height="338" alt="Screenshot 2026-06-25 215922" src="https://github.com/user-attachments/assets/a18de05f-b18f-471c-acbb-75cb2b9cb067" />
+<img width="300" height="340" alt="Screenshot 2026-06-27 201522" src="https://github.com/user-attachments/assets/5d91567f-9fdb-4d7d-b4ae-cf7433d3c2fa" />
+
 
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
@@ -169,11 +170,12 @@ ip > firewall > nat<br>
    <b>Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
    - subnet mask: 255.255.255.0
-   isikan juga dnsnya
+   - gateway: 192.168.100.1
   - Preferred DNS: 8.8.8.8
   - Alternate DNS: 8.8.4.4
   
-<img width="300" height="338" alt="Screenshot 2026-06-25 215922" src="https://github.com/user-attachments/assets/a18de05f-b18f-471c-acbb-75cb2b9cb067" />
+<img width="300" height="340" alt="Screenshot 2026-06-27 201522" src="https://github.com/user-attachments/assets/5d91567f-9fdb-4d7d-b4ae-cf7433d3c2fa" />
+
 
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
