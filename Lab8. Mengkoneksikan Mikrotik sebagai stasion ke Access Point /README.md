@@ -13,7 +13,7 @@ Wireless > pilih Wlan1 > Lalu enable(klik tanda centang di pojok kiri atas)
 <img width="959" height="248" alt="Screenshot 2026-06-27 195106" src="https://github.com/user-attachments/assets/66fb0011-d845-45f9-883e-6b2d82211313" />
 
 
-<b>2. Membuat security profile</b>
+<b>2. Membuat security profile</b><br>
 Masuk ke menu:<br>
 Wireless > Security Profiles<br>
 Buat profile baru dengan klik tanda +<br>
