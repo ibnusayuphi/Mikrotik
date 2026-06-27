@@ -9,7 +9,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 <img width="1600" height="1131" alt="WhatsApp Image 2026-06-26 at 21 29 12 (2)" src="https://github.com/user-attachments/assets/c5e2983e-e334-42c3-bf7c-1a71bd269d46" />
 
 
-<b>Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi</b><br>
+<b>a. Pertama tama kita akan ubah nama interface yang akan kita gunakan agar memudahkan kita saat konfigurasi</b><br>
    - ether1 kita ubah jadi ether1-WAN(terkoneksi ke internet)<br>
    - ether2 kita ubah jadi ether2-LAN(terkoneksi dengan pc klien)
 
@@ -17,7 +17,7 @@ Untuk lab kali ini kita akan menggunakan topologi berikut:
 
 <br>
 
-<b>Selanjutnya kita akan konfigurasi DHCP client pada ether1</b><br>
+<b>b. Selanjutnya kita akan konfigurasi DHCP client pada ether1</b><br>
 ip > dhcp client
    - interface: ether1-WAN
    - Use Peer DNS: yes
@@ -31,7 +31,7 @@ ip > dhcp client
 
 <br>
 
-<b> Kita coba test koneksi dari MikroTik ke internet menggunakan ping</b>
+<b>c. Kita coba test koneksi dari MikroTik ke internet menggunakan ping</b>
 
 <img width="471" height="142" alt="Screenshot 2026-06-25 215509" src="https://github.com/user-attachments/assets/0a2bf897-f068-4d60-ace2-2d7ecd66d38a" />
 
@@ -40,7 +40,7 @@ ip > dhcp client
  
 <br>
 
-<b> Selanjutnya kita akan menambahkan ip untuk LAN</b><br>
+<b>d. Selanjutnya kita akan menambahkan ip untuk LAN</b><br>
 ip > address
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
@@ -50,7 +50,7 @@ ip > address
 
 <br>
 
-<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
+<b>e. Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
 ip > firewall > nat<br>
    - chain: srcnat<br>
    - out interface: ether1-WAN<br>
@@ -63,7 +63,7 @@ ip > firewall > nat<br>
 
 <br>
 
-   <b>Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
+   <b>f. Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
    - subnet mask: 255.255.255.0
    - gateway: 192.168.100.1
@@ -76,7 +76,7 @@ ip > firewall > nat<br>
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
 
-<b>Test ping dari sisi klien</b><br>
+<b>g. Test ping dari sisi klien</b><br>
 ping 8.8.8.8 dan ping google.com
 
 <img width="470" height="186" alt="Screenshot 2026-06-25 220747" src="https://github.com/user-attachments/assets/38b271d2-7298-4e8f-bf34-e7a77dd58822" />
@@ -95,7 +95,7 @@ Kita akan gunakan topologi berikut:
 
 
 
-<b>Seperti pada praktik di atas, pertama kita akan mengubah terlebih dahulu nama interfacenya</b>
+<b>a. Seperti pada praktik di atas, pertama kita akan mengubah terlebih dahulu nama interfacenya</b>
 - ether1 > ether1-WAN
 - ether2 > ether2-LAN
 
@@ -103,7 +103,7 @@ Kita akan gunakan topologi berikut:
 
 
 
-<b>Menambahkan IP address</b> <br>
+<b>b. Menambahkan IP address</b> <br>
 ip > address<br>
 - address: 192.168.137.2/24 (ini disesuaikan dengan ip yang diberikan oleh isp)<br>
 - interface: ether1<br>
@@ -112,7 +112,7 @@ ip > address<br>
 
 
  
-<b>Menambahkan default route</b><br>
+<b>c. Menambahkan default route</b><br>
 ip > Routes<br>
 Dst. Address: 0.0.0.0/0<br>
 Gateway: 192.168.137.1
@@ -123,7 +123,7 @@ Gateway: 192.168.137.1
 Kenapa Dst Address-nya 0.0.0.0/0, bukan IP Google atau IP lain?
 Karena 0.0.0.0/0 adalah representasi dari semua jaringan.Jadi ketika router menerima paket data dan tidak menemukan tujuan tersebut di jaringan lokal, router akan menggunakan Default Route sebagai jalur keluarnya.
 
-<b>Menambahkan DNS</b><br>
+<b>d. Menambahkan DNS</b><br>
 ip > dns<br>
 servers: 8.8.8.8<br>
          1.1.1.1<br>
@@ -135,7 +135,7 @@ centang pada Allow Remote Requests
 
 DNS digunakan untuk menerjemahkan nama domain menjadi alamat IP.Tanpa DNS, router masih dapat melakukan ping ke alamat IP, namun tidak dapat mengakses website menggunakan nama domain. Oleh karena itu, DNS diperlukan agar pengguna dapat mengakses internet menggunakan nama domain.
 
-<b>Test koneksi dari MikroTik ke Internet</b><br>
+<b>e. Test koneksi dari MikroTik ke Internet</b><br>
 ping 8.8.8.8<br>
 ping google.com<br>
 
@@ -145,7 +145,7 @@ ping google.com<br>
 yapp sudah berhasil terkoneksi
 
 
-<b>Selanjutnya kita akan menambahkan ip untuk LAN</b>
+<b>f. Selanjutnya kita akan menambahkan ip untuk LAN</b>
    - Address: 192.168.100.1/24
    - Interface: ether2-LAN
 
@@ -154,7 +154,7 @@ yapp sudah berhasil terkoneksi
 
 <br>
 
-<b>Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
+<b>g. Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi Firewall NAT</b><br>
 ip > firewall > nat<br>
    - chain: srcnat<br>
    - out interface: ether1-WAN<br>
@@ -167,7 +167,7 @@ ip > firewall > nat<br>
 
 <br>
 
-   <b>Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
+   <b>h. Lalu kita setting ip pada sisi klien, gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi</b>
    - address: 192.168.100.2
    - subnet mask: 255.255.255.0
    - gateway: 192.168.100.1
@@ -180,7 +180,7 @@ ip > firewall > nat<br>
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
 
-<b>Test ping dari sisi klien</b>
+<b>i. Test ping dari sisi klien</b>
 ping 8.8.8.8 dan ping google.com
 
 <img width="470" height="186" alt="Screenshot 2026-06-25 220747" src="https://github.com/user-attachments/assets/38b271d2-7298-4e8f-bf34-e7a77dd58822" />
