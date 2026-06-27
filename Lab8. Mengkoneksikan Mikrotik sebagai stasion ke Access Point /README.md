@@ -93,9 +93,9 @@ gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi<br>
 
 
 
-<b>10. Test koneksi pada klien</b>
+<b>10. Test koneksi pada klien</b><br>
 Selanjutnya kita akan test koneksi pada sisi klien<br>
-ping 8.8.8.8
+ping 8.8.8.8<br>
 ping google.com
 
 <img width="425" height="182" alt="Screenshot 2026-06-26 155357" src="https://github.com/user-attachments/assets/a141b9c4-89a1-4a72-9f47-73c8fd16c112" />
