@@ -67,9 +67,9 @@ interface: ether2
 <img width="216" height="166" alt="Screenshot 2026-06-27 194419" src="https://github.com/user-attachments/assets/dc27d558-af46-44d1-8385-ac6b570b80d9" />
 
 
-<b>8. Menambahkan NAT</b>
-Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi NAT
-ip > firewall > NAT
+<b>8. Menambahkan NAT</b><br>
+Agar klien dapat terhubung ke internet kita akan melakukan konfigurasi NAT<br>
+ip > firewall > NAT<br>
    - chain: srcnat<br>
    - out interface: wlan1<br>
    - action: masquerade
@@ -81,12 +81,11 @@ ip > firewall > NAT
 
 
 
-<b>9. Setting ip pada sisi klien</b>
-gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi
+<b>9. Setting ip pada sisi klien</b><br>
+gunakan ip yang satu segmen dengan ip ether2 yang kita tambahkan tadi<br>
    - address: 192.168.20.2
    - subnet mask: 255.255.255.0
    - gateway: 192.168.20.1
-   isikan juga dnsnya
   - Preferred DNS: 8.8.8.8
   - Alternate DNS: 8.8.4.4
 
