@@ -1,4 +1,4 @@
-<h1>Lab5. Mengkoneksikan MikroTik ke internet</h1>
+<img width="323" height="314" alt="image" src="https://github.com/user-attachments/assets/548a84b2-e30e-45d9-bc84-6509851be761" /><h1>Lab5. Mengkoneksikan MikroTik ke internet</h1>
 Jadi untuk mengkoneksikan MikroTik ke internet itu memiliki dua cara, yang pertama dengan dynamic ip dengan memanfaatkan fitur DHCP Client, nahh yang kedua kita setting manual atau statis.
 
 <h3>1. Sumber internet IP dynamic</h3><br>
@@ -129,7 +129,7 @@ servers: 8.8.8.8<br>
          1.1.1.1<br>
 centang pada Allow Remote Requests
 
-<img width="323" height="317" alt="Screenshot 2026-06-26 095851" src="https://github.com/user-attachments/assets/6de55656-2e3f-42f7-b4d0-68ada774a3e4" />
+<img width="323" height="314" alt="Screenshot 2026-06-27 202709" src="https://github.com/user-attachments/assets/b6d82f8d-6ae9-41ef-9142-5dfa526a7ac1" />
 
 
 
@@ -180,7 +180,8 @@ ip > firewall > nat<br>
 Fungsi dari kita menambahkan dns yaitu memungkinkan perangkat mengakses website menggunakan nama domain, bukan harus mengetik alamat IP
 
 
-<b>i. Test ping dari sisi klien</b>
+<b>i. Test ping dari sisi klien</b><br>
+
 ping 8.8.8.8 dan ping google.com
 
 <img width="470" height="186" alt="Screenshot 2026-06-25 220747" src="https://github.com/user-attachments/assets/38b271d2-7298-4e8f-bf34-e7a77dd58822" />
