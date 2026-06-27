@@ -59,9 +59,9 @@ ping google.com
 
 oke sudah berhasil itu artinya kita sudah berhasil menghubungkan Mikrotik ke internet melalui Access point menggunakan mode station
 
-<b>7. Menambahkan IP untuk LAN</b>
-IP > Address
-address: 192.168.20.1/24
+<b>7. Menambahkan IP untuk LAN</b><br>
+IP > Address<br>
+address: 192.168.20.1/24<br>
 interface: ether2
 
 <img width="216" height="166" alt="Screenshot 2026-06-27 194419" src="https://github.com/user-attachments/assets/dc27d558-af46-44d1-8385-ac6b570b80d9" />
