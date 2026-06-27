@@ -12,13 +12,13 @@ Biasanya IP Public diberikan oleh ISP (Internet Service Provider). Tidak ada dua
 <hr>
 <h3>IP Private</h3><br>
 IP Private adalah IP Address yang digunakan di jaringan lokal, misalnya di rumah, sekolah, atau kantor.
-IP ini tidak bisa langsung digunakan untuk mengakses internet karena hanya berlaku di jaringan lokal saja. Oleh karena itu, IP Private biasanya digunakan pada perangkat seperti laptop, komputer, printer, atau HP yang terhubung ke router. Rentang IP private yaitu:<br>
-    - 10.0.0.0 - 10.255.255.255<br>
-    - 172.16.0.0 - 172.31.255.255<br>
-    - 192.168.0.0 - 192.168.255.255<br>
+IP ini tidak bisa langsung digunakan untuk mengakses internet karena hanya berlaku di jaringan lokal saja. Oleh karena itu, IP Private biasanya digunakan pada perangkat seperti laptop, komputer, printer, atau HP yang terhubung ke router. IP Private memiliki tiga rentang alamat yang dibedakan berdasarkan kelas IP, yaitu kelas A, kelas B, dan kelas C.<br>
+Kelas A 10.0.0.0 - 10.255.255.255<br>
+Kelas B 172.16.0.0 - 172.31.255.255<br>
+Kelas C 192.168.0.0 - 192.168.255.255<br>
 <b>Contohnya</b><br>
 192.168.100.1<br>
-172.16.1.0<br>
+172.16.1.1<br>
 10.10.10.1<br>
 <hr>
 
