@@ -2,6 +2,7 @@
 Pada praktikum ini saya akan mempelajari beberapa masalah yang sering terjadi pada saat login MikroTik serta cara menanganinya
 <hr>
 <h3>1. Tidak bisa login ke MikroTik</h3>
+
 <b>Penyebab</b>
   - Kabel LAN belum terhubung.
   - Password atau username salah.
@@ -17,6 +18,7 @@ Pada praktikum ini saya akan mempelajari beberapa masalah yang sering terjadi pa
   - Jika sudah buntu, coba lakukan hard reset (tidak disarankan terlalu sering menggunakan hard reset)
 <hr>
 <h3>2. Tidak bisa akses menggunakan winbox</h3>
+
 <b>Penyebab</b>
   - Kabel LAN belum terhubung.
   - Password atau username salah.
@@ -32,6 +34,7 @@ Pada praktikum ini saya akan mempelajari beberapa masalah yang sering terjadi pa
 
 <hr>
 <h3>3. Tidak bisa akses menggunakan telnet</h3>
+
 <b>Penyebab</b>
   - Kabel LAN belum terhubung.
   - Password atau username salah.
@@ -46,6 +49,7 @@ Pada praktikum ini saya akan mempelajari beberapa masalah yang sering terjadi pa
 
 <hr>
 <h3>4. Tidak bisa akses menggunakan SSH</h3>
+
 <b>Penyebab</b>
   - Kabel LAN belum terhubung.
   - Password atau username salah.
@@ -59,8 +63,8 @@ Pada praktikum ini saya akan mempelajari beberapa masalah yang sering terjadi pa
   - Pastikan perangkat dapat saling ping.
 
 <hr>
-<h3>5. Semua lampu port ethernet menyala</h3>
-<b>Penyebab</b>
+<h3>5. Semua lampu port ethernet menyala</h3><br>
+<b>Penyebab</b><br>
 Biasanya menandakan RouterBoard mengalami error, gagal melakukan booting, atau terjadi kerusakan pada sistem operasi (RouterOS).
 
 <b>Cara menangani</b>
@@ -71,6 +75,7 @@ Biasanya menandakan RouterBoard mengalami error, gagal melakukan booting, atau t
 
 <hr>
 <h3>6. MikroTik selalu restart</h3>
+
 <b>Penyebab</b>
   - Power adaptor tidak stabil.
   - RouterOS mengalami kerusakan.
