@@ -135,7 +135,8 @@ Login as: Admin
 
 Password: (kosongkan saja jika belum menambahkan password)
 
-![Uploading Screenshot 2026-07-03 195506.png…]()
+
+<img width="432" height="98" alt="Screenshot 2026-07-03 195506" src="https://github.com/user-attachments/assets/c9ab458c-4a8b-4225-83a4-f4933272f5a8" />
 
 
 
