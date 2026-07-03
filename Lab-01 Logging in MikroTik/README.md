@@ -124,7 +124,7 @@ Ketik IP address 192.168.88.1 (IP default Mikrotik)
 
 Ketik port 22
 
-<img width="680" height="689" alt="login ssh  1" src="https://github.com/user-attachments/assets/18c55d51-f452-46cd-906b-bb524be1ecd1" />
+<img width="335" height="337" alt="Screenshot 2026-07-03 194822" src="https://github.com/user-attachments/assets/857ddf45-52c8-46b4-bf55-273ea0363f71" />
 
 
 Lalu Klik Open
@@ -135,8 +135,9 @@ Login as: Admin
 
 Password: (kosongkan saja jika belum menambahkan password)
 
+![Uploading Screenshot 2026-07-03 195506.png…]()
 
-<img width="1918" height="1009" alt="login ssh  2" src="https://github.com/user-attachments/assets/ba2469ca-ad60-4178-91f0-154040b34a44" />
+
 
 
 Jika sudah berhasil teremote maka seperti inilah tampilannya
