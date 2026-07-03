@@ -56,7 +56,8 @@ Masukkan IP dari RouterBoard di web browser
 
 Kemudian silahkan login dengan menggunakan 
 
-<img width="1908" height="940" alt="login webfig  1" src="https://github.com/user-attachments/assets/4b170aeb-f82e-4497-b587-cc4c6dc5d033" />
+<img width="959" height="539" alt="Screenshot 2026-06-25 202412" src="https://github.com/user-attachments/assets/6f646bf5-8552-44a4-9ebe-45387626e166" />
+
 
 
     User: Admin
@@ -65,7 +66,8 @@ Kemudian silahkan login dengan menggunakan
 
 Jika sudah berhasil teremote maka seperti inilah tampilannya
 
-<img width="1892" height="945" alt="login webfig  2" src="https://github.com/user-attachments/assets/f85e5f0b-dc43-40f2-96f4-3e09ee717c2f" />
+<img width="959" height="539" alt="Screenshot 2026-06-25 202451" src="https://github.com/user-attachments/assets/01b640bb-e967-4432-a513-1a0f71a41ac7" />
+
 
 
 3. Via Telnet
