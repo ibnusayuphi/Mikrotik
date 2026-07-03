@@ -40,7 +40,7 @@ Menurut saya meremote menggunakan Winbox adalah cara meremote yang paling enak, 
 
 2. Via WebFig
 
-WebFig ini berjalan di Port 80. Jadi dengan menggunakan fitur ini kita bisa meremote melalui Web Browser seperti Chrome.
+WebFig ini berjalan di Port 80. Jadi dengan menggunakan fitur ini kita bisa meremote melalui Web Browser seperti Chrome. Untuk meremote via web ini, pastikan pc dan mikrotik kalian sudah bisa saling ping. karena di sisni saya akan menggunakan ip default mikrotik untuk di remote, yaitu 192.168.88.1/24. maka ip pc saya adalah 192.168.88.2/24. Langsung saja ke caranya
 
 Buka Browser (disini saya menggunakan chrome)
 
@@ -72,7 +72,7 @@ Jika sudah berhasil teremote maka seperti inilah tampilannya
 
 3. Via Telnet
 
-Telnet (Telecommunication Network) adalah protokol lama yang digunakan untuk remote login ke perangkat jaringan melalui CLI. Protokol ini berjalan pada port 23. Walaupun masih bisa dipakai untuk belajar, Telnet sudah jarang digunakan di jaringan produksi karena tidak memiliki enkripsi sehingga data mudah disadap. Langsung aja ke caranya
+Telnet (Telecommunication Network) adalah protokol lama yang digunakan untuk remote login ke perangkat jaringan melalui CLI. Protokol ini berjalan pada port 23. Walaupun masih bisa dipakai untuk belajar, Telnet sudah jarang digunakan di jaringan produksi karena tidak memiliki enkripsi sehingga data mudah disadap. Untuk meremote via Telnet ini, pastikan pc dan mikrotik kalian sudah bisa saling ping. karena di sisni saya akan menggunakan ip default mikrotik untuk di remote, yaitu 192.168.88.1/24. maka ip pc saya adalah 192.168.88.2/24. Langsung aja ke caranya
 
 Aktivasi Telnet Client di Windows
 
@@ -111,7 +111,7 @@ Jika sudah berhasil teremote maka seperti inilah tampilannya
 
 4. Via SSH
 
-SSH (Secure Shell) adalah protokol jaringan yang digunakan untuk melakukan remote login dengan aman. SSH berjalan pada port 22 secara default. Berbeda dengan Telnet, semua data yang dikirimkan melalui SSH dienkripsi, sehingga username, password, maupun perintah tidak bisa dibaca oleh pihak lain meskipun dilakukan sniffing di jaringan. Karena tingkat keamanannya yang tinggi, SSH menjadi standar utama dalam administrasi jaringan saat ini. Oke langsung aja ke tutorialnya, di sini saya akan menggunakan aplikasi pihak ketiga yaitu putty.
+SSH (Secure Shell) adalah protokol jaringan yang digunakan untuk melakukan remote login dengan aman. SSH berjalan pada port 22 secara default. Berbeda dengan Telnet, semua data yang dikirimkan melalui SSH dienkripsi, sehingga username, password, maupun perintah tidak bisa dibaca oleh pihak lain meskipun dilakukan sniffing di jaringan. Karena tingkat keamanannya yang tinggi, SSH menjadi standar utama dalam administrasi jaringan saat ini. Untuk meremote via SSH ini, pastikan pc dan mikrotik kalian sudah bisa saling ping. karena di sisni saya akan menggunakan ip default mikrotik untuk di remote, yaitu 192.168.88.1/24. maka ip pc saya adalah 192.168.88.2/24. Oke langsung aja ke tutorialnya, di sini saya akan menggunakan aplikasi pihak ketiga yaitu putty.
 
 Buka putty
 
@@ -146,4 +146,6 @@ Jika sudah berhasil teremote maka seperti inilah tampilannya
 <img width="959" height="437" alt="Screenshot 2026-06-24 134156" src="https://github.com/user-attachments/assets/9d0d88c9-93ca-447c-9123-ecdd9a77b3ed" />
 
 
+<hr>
+<h3>Kesimpulan</h3>
 Oke itu dia beberapa cara untuk meremote Mikrotik. Setiap metode memiliki kelebihan dan kekurangannya masing-masing. Winbox dan WebFig memudahkan pengguna dengan tampilan grafis, sedangkan Telnet dan SSH menggunakan command line interface. Telnet dapat digunakan untuk belajar remote device, tetapi data dikirim tanpa enkripsi sehingga rawan disadap. SSH menawarkan keamanan lebih baik karena seluruh komunikasi dienkripsi.
