@@ -32,53 +32,85 @@ Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibandi
 
 <h3>Beberapa contoh Command di MikroTik</h3>
 
-<b>Menambahkan IP Address</b>
-<br>ip address add address=192.168.100.1/24 interface=ether4
+<b>Mengubah nama router</b>
+/system identity set name=Mikrotik-ibnu
 
-<img width="470" height="30" alt="Screenshot 2026-06-24 202938" src="https://github.com/user-attachments/assets/53ebc9dc-a93b-4359-a7c8-8489d8b3f3f8" />
-
-
-<b>Melihat IP Address yang terdaftar</b>
-<br>ip address print
-
-<img width="470" height="74" alt="Screenshot 2026-06-25 171954" src="https://github.com/user-attachments/assets/4adf4f10-5843-4dfc-9e27-da8afd7d9779" />
+<img width="469" height="50" alt="Screenshot 2026-06-25 172152" src="https://github.com/user-attachments/assets/6f39d184-9256-46a7-82ee-0c742d285eb1" />
 
 
-<b>Mengganti identitas MikroTik</b>
-<br>system identity set name=(isi sesuai kemauan)
+<b>Melihat daftar interface</b>
+/interface print
 
-<img width="469" height="50" alt="Screenshot 2026-06-25 172152" src="https://github.com/user-attachments/assets/da2e9281-925d-4179-9f7b-3b12915dbbf2" />
-
-
-<b>Menambahkan user dengan hak akses full</b>
-<br>user add name=ibnu group=full password=(sesuaikan)
-
-<img width="471" height="58" alt="Screenshot 2026-06-25 172529" src="https://github.com/user-attachments/assets/07f9b0c9-2c30-456f-af1a-d2b0fb20a261" />
-
-
-<b>Melihat user</b>
-<br>user print
-
-<img width="470" height="107" alt="Screenshot 2026-06-25 172555" src="https://github.com/user-attachments/assets/9da1d67b-5412-47b1-af70-2e329da91842" />
+<img width="470" height="122" alt="Screenshot 2026-06-25 172911" src="https://github.com/user-attachments/assets/a57e3da7-5ce8-429a-ad01-c7fdefd70083" />
 
 
 <b>Melihat lisensi</b>
-<br>system license print
+system license print
 
-<img width="471" height="88" alt="Screenshot 2026-06-25 172717" src="https://github.com/user-attachments/assets/09f2b6a4-4702-49fa-9b14-ad80cf9720c9" />
+<img width="471" height="88" alt="Screenshot 2026-06-25 172717" src="https://github.com/user-attachments/assets/f5d2506a-f758-49c5-b0f4-259679cd9a9d" />
 
+<b>Menambahkan user</b>
+user add name=ibnu password=1234 group=full
 
+<b>Mengganti password admin</b>
+password
 
-<b>Mengganti nama interface</b>
-<br>interface set name=(sesuaikan) ether1(isi dengan ether yang mau diganti namanya)
+<b>Melihat user</b>
+user print
 
-<img width="470" height="62" alt="Screenshot 2026-06-25 172822" src="https://github.com/user-attachments/assets/0af88fbf-4158-4148-974c-728e3af0b455" />
+<b>Menambahkan IP Address</b>
+/ip address add address=192.168.10.1/24 interface=ether2
 
+<b>Melihat IP Address</b>
+/ip address print
 
-<b>Melihat interface</b>
-<br>interface print
+<b>Menghubungkan internet menggunakan DHCP Client</b>
+/ip dhcp-client add interface=ether1 disabled=no
 
-<img width="470" height="122" alt="Screenshot 2026-06-25 172911" src="https://github.com/user-attachments/assets/0d2d3535-5a32-4335-8e15-157d3eb168dc" />
+<b>Melihat DHCP Client</b>
+/ip dhcp-client print
+
+<b>Menambahkan default route</b>
+/ip route add dst-address=0.0.0.0/0 gateway=192.168.1.1 (sesuaikan)
+
+<b>Melihat routing table</b>
+/ip route print
+
+<b>Mengatur DNS Server</b>
+/ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+<b>Melakukan pengujian koneksi (Ping)</b>
+/ping 8.8.8.8
+
+<b>Membuat NAT Masquerade</b>
+/ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
+
+<b>Melihat konfigurasi NAT</b>
+/ip firewall nat print
+
+<b>Melihat DHCP Server</b>
+/ip dhcp-server print
+
+<b>Melihat daftar DHCP Lease</b>
+/ip dhcp-server lease print
+
+<b>Menonaktifkan interface</b>
+/interface disable ether2
+
+<b>Mengaktifkan interface</b>
+/interface enable ether2
+
+<b>Melihat resource router</b>
+/system resource print
+
+<b>Melakukan restart MikroTik</b>
+/system reboot
+
+<b>Backup konfigurasi</b>
+/export file=backup-config
+
+<b>Reset MikroTik menjadi Blank Configuration</b>
+/system reset-configuration no-defaults=yes
 
 
 <b>Kesimpulan</b>
