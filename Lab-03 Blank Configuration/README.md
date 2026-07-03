@@ -1,6 +1,6 @@
 <h1>Lab3. Blank Configuration</h1>
 
-Blank configuration adalah kondisi di mana router tidak memiliki settingan apapun. seperti namanya "blank" yang berarti kosong.
+Blank configuration adalah kondisi di mana router tidak memiliki settingan apapun. seperti namanya "blank" yang berarti kosong. Berbeda dengan default configuration, blank configuration bisa diremote melalui port mana saja, termasuk ether1 juga bisa. Blank configuration biasanya digunakan untuk belajar, praktik, atau membangun jaringan dari nol agar seluruh konfigurasi dibuat sendiri sesuai kebutuhan.
 adapun cara untuk membuat blank configuration sebagai berikut:
 1. masuk ke menu system > Reset Configuration
 
@@ -19,3 +19,7 @@ Setelah di klik maka routerboard akan melakukan restart sendiri, tunggu sampai p
 
 
 dan yappp kini routerboard sudah menggunakan blank configuration
+
+<hr>
+<h3>Kesimpulan</h3>
+Blank Configuration adalah kondisi router MikroTik dengan keadaan, tidak ada komfigurasi apapun. Mode ini biasanya digunakan untuk belajar, praktik, atau membangun jaringan dari nol agar seluruh konfigurasi dibuat sendiri sesuai kebutuhan. Dengan memahami Blank Configuration, kita akan lebih mengerti cara kerja setiap fitur MikroTik dan tidak hanya bergantung pada konfigurasi otomatis.
