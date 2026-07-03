@@ -92,8 +92,8 @@ chain=srcnat
 
 7. Firewall Filter Rule
 
-Pada default konfigurasi mikrotik remote tidak bisa dilakukan pada ether1, karena adanya firewall filter rule yang membatasi. ether1 hanya bisa digunakan sebagai sumber internet tidak bisa digunakan untuk meremote.
-
+Pada default konfigurasi mikrotik remote tidak bisa dilakukan pada ether1, karena ether1 hanya bisa digunakan sebagai sumber internet tidak bisa digunakan untuk meremote.
+Dan ini beberapa Firewall yang aktif:
 <img width="901" height="374" alt="firewallFR" src="https://github.com/user-attachments/assets/64549531-21e4-4aa8-bba0-1801ea3b8bcb" />
 
 8. Wireless
@@ -103,7 +103,8 @@ Secara default configuration, interface wireless sudah siap digunakan sebagai ac
 <img width="402" height="368" alt="Screenshot 2026-06-24 155850" src="https://github.com/user-attachments/assets/2a14668d-bc84-4aa8-8c15-401b3cd3c04b" />
 
 
-
+<hr>
+<h3>Kesimpulan</h3>
 Default Configuration pada MikroTik merupakan konfigurasi bawaan yang dibuat secara otomatis agar router dapat langsung digunakan sebagai perangkat jaringan tanpa perlu konfigurasi dari awal. Konfigurasi ini mencakup konfigurasi interface, bridge, IP address, DHCP Client, DHCP Server, DNS, firewall. Dengan adanya Default Configuration, proses instalasi dan penggunaan router menjadi lebih mudah, cepat, serta aman bagi pengguna yang baru mulai mengelola jaringan.
 
 
