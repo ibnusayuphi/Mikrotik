@@ -32,85 +32,126 @@ Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibandi
 
 <h3>Beberapa contoh Command di MikroTik</h3>
 
-<b>Mengubah nama router</b>
+<b>Mengubah nama router</b><br>
 /system identity set name=Mikrotik-ibnu
 
 <img width="469" height="50" alt="Screenshot 2026-06-25 172152" src="https://github.com/user-attachments/assets/6f39d184-9256-46a7-82ee-0c742d285eb1" />
 
 
-<b>Melihat daftar interface</b>
+<b>Melihat daftar interface</b><br>
 /interface print
 
 <img width="470" height="122" alt="Screenshot 2026-06-25 172911" src="https://github.com/user-attachments/assets/a57e3da7-5ce8-429a-ad01-c7fdefd70083" />
 
 
-<b>Melihat lisensi</b>
+<b>Melihat lisensi</b><br>
 system license print
 
 <img width="471" height="88" alt="Screenshot 2026-06-25 172717" src="https://github.com/user-attachments/assets/f5d2506a-f758-49c5-b0f4-259679cd9a9d" />
 
-<b>Menambahkan user</b>
+<b>Menambahkan user</b><br>
 user add name=ibnu password=1234 group=full
+<img width="468" height="37" alt="Screenshot 2026-07-14 202951" src="https://github.com/user-attachments/assets/6c2e09f7-7d05-4590-b0d5-bad0a5d0454d" />
 
-<b>Mengganti password admin</b>
+
+<b>Mengganti password admin</b><br>
 password
+<img width="467" height="65" alt="Screenshot 2026-07-14 203150" src="https://github.com/user-attachments/assets/5b0221dd-e6b2-4258-a256-58419d4260a3" />
 
-<b>Melihat user</b>
+
+<b>Melihat user</b><br>
 user print
+<img width="467" height="95" alt="Screenshot 2026-07-14 203331" src="https://github.com/user-attachments/assets/e628b713-9a9e-4dd0-bcab-62260cd16f62" />
 
-<b>Menambahkan IP Address</b>
+
+<b>Menambahkan IP Address</b><br>
 /ip address add address=192.168.10.1/24 interface=ether2
 
-<b>Melihat IP Address</b>
+<img width="467" height="37" alt="Screenshot 2026-07-14 203805" src="https://github.com/user-attachments/assets/b1b18a33-48fe-43ed-ab36-7f443513f333" />
+
+
+<b>Melihat IP Address</b><br>
 /ip address print
 
-<b>Menghubungkan internet menggunakan DHCP Client</b>
+<img width="464" height="65" alt="Screenshot 2026-07-14 203827" src="https://github.com/user-attachments/assets/084c5f80-135d-4c11-a270-5faf713768c7" />
+
+
+<b>Menghubungkan internet menggunakan DHCP Client</b><br>
 /ip dhcp-client add interface=ether1 disabled=no
 
-<b>Melihat DHCP Client</b>
-/ip dhcp-client print
+<img width="440" height="53" alt="Screenshot 2026-07-14 204510" src="https://github.com/user-attachments/assets/78c23f12-7877-4dce-900d-99089556734e" />
 
-<b>Menambahkan default route</b>
+<b>Melihat DHCP Client</b><br>
+/ip dhcp-client print 
+
+<b>Menambahkan default route</b><br>
 /ip route add dst-address=0.0.0.0/0 gateway=192.168.1.1 (sesuaikan)
 
-<b>Melihat routing table</b>
+<b>Melihat routing table</b><br>
 /ip route print
 
-<b>Mengatur DNS Server</b>
+<b>Mengatur DNS Server</b><br>
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
 
-<b>Melakukan pengujian koneksi (Ping)</b>
+<img width="437" height="53" alt="Screenshot 2026-07-14 204908" src="https://github.com/user-attachments/assets/91c75f3a-2d71-42c7-b7ef-d371bd398e39" />
+
+
+<b>Melakukan pengujian koneksi (Ping)</b><br>
 /ping 8.8.8.8
 
-<b>Membuat NAT Masquerade</b>
+<b>Membuat NAT Masquerade</b><br>
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 
-<b>Melihat konfigurasi NAT</b>
+<img width="415" height="56" alt="Screenshot 2026-07-14 205027" src="https://github.com/user-attachments/assets/cacf32eb-6fd0-4144-801f-14cf127b2331" />
+
+
+<b>Melihat konfigurasi NAT</b><br>
 /ip firewall nat print
 
-<b>Melihat DHCP Server</b>
+<img width="413" height="64" alt="Screenshot 2026-07-14 205059" src="https://github.com/user-attachments/assets/a9d26f77-1c54-44ff-944f-06b0aa75a653" />
+
+
+<b>Melihat DHCP Server</b><br>
+/ip dhcp-server setup
+
+<img width="413" height="221" alt="Screenshot 2026-07-14 205354" src="https://github.com/user-attachments/assets/e3e1b253-39ed-4222-9b53-82841f8a10de" />
+
+
+<b>Melihat DHCP Server</b><br>
 /ip dhcp-server print
 
-<b>Melihat daftar DHCP Lease</b>
+<img width="412" height="77" alt="Screenshot 2026-07-14 205417" src="https://github.com/user-attachments/assets/4dc8883a-6445-4f50-bd6f-0fef16d84a8b" />
+
+
+<b>Melihat daftar DHCP Lease</b><br>
 /ip dhcp-server lease print
 
-<b>Menonaktifkan interface</b>
+<b>Menonaktifkan interface</b><br>
 /interface disable ether2
 
-<b>Mengaktifkan interface</b>
+<b>Mengaktifkan interface</b><br>
 /interface enable ether2
 
-<b>Melihat resource router</b>
+<b>Melihat resource router</b><br>
 /system resource print
 
-<b>Melakukan restart MikroTik</b>
+<b>Melakukan restart MikroTik</b><br>
 /system reboot
 
-<b>Backup konfigurasi</b>
+<img width="415" height="74" alt="Screenshot 2026-07-14 205727" src="https://github.com/user-attachments/assets/bd34ae4f-80eb-4b6e-92e3-4e6ccbb21230" />
+
+
+<b>Backup konfigurasi</b><br>
 /export file=backup-config
+
+<img width="416" height="133" alt="Screenshot 2026-07-14 210228" src="https://github.com/user-attachments/assets/751d02d8-e3c1-4fc0-aac7-f5432a702168" />
+
 
 <b>Reset MikroTik menjadi Blank Configuration</b>
 /system reset-configuration no-defaults=yes
+
+<img width="413" height="57" alt="Screenshot 2026-07-14 210411" src="https://github.com/user-attachments/assets/b87ec125-7134-4f56-b01a-05c41a9b1a25" />
+
 
 
 <b>Kesimpulan</b>
