@@ -79,18 +79,28 @@ user print<br>
 
 
 <b>Menambahkan DHCP Client</b><br>
-/ip dhcp-client add interface=ether1 add-default-route=yes use-peer-ntp=yes use-peer-dns=yes disabled=no
+/ip dhcp-client add interface=wlan1 add-default-route=yes use-peer-ntp=yes use-peer-dns=yes disabled=no
 
-<img width="440" height="53" alt="Screenshot 2026-07-14 204510" src="https://github.com/user-attachments/assets/78c23f12-7877-4dce-900d-99089556734e" />
+<img width="431" height="62" alt="Screenshot 2026-07-14 214843" src="https://github.com/user-attachments/assets/24f5dddf-77fb-4f56-844a-8313552ba925" />
+
 
 <b>Melihat DHCP Client</b><br>
 /ip dhcp-client print 
 
+<img width="469" height="75" alt="Screenshot 2026-07-14 214751" src="https://github.com/user-attachments/assets/286d5fc8-0ad4-4fc3-b191-9b24392c89d2" />
+
+
 <b>Menambahkan default route</b><br>
-/ip route add dst-address=0.0.0.0/0 gateway=192.168.1.1 (sesuaikan)
+/ip route add dst-address=0.0.0.0/0 gateway=(sesuaikan)
+
+<img width="448" height="39" alt="Screenshot 2026-07-14 215651" src="https://github.com/user-attachments/assets/f180653f-7ab8-44a5-a7c5-8703a546df92" />
+
 
 <b>Melihat routing table</b><br>
 /ip route print
+
+<img width="450" height="81" alt="Screenshot 2026-07-14 215713" src="https://github.com/user-attachments/assets/2797de64-6e9d-4f11-a1ae-550c7683e1ff" />
+
 
 <b>Mengatur DNS Server</b><br>
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
@@ -100,6 +110,9 @@ user print<br>
 
 <b>Melakukan pengujian koneksi (Ping)</b><br>
 /ping 8.8.8.8
+
+<img width="466" height="127" alt="Screenshot 2026-07-14 220946" src="https://github.com/user-attachments/assets/013b7692-9c37-4745-89cb-8bdcb242a9fb" />
+
 
 <b>Membuat NAT Masquerade</b><br>
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
@@ -128,14 +141,26 @@ user print<br>
 <b>Melihat daftar DHCP Lease</b><br>
 /ip dhcp-server lease print
 
+<img width="467" height="85" alt="Screenshot 2026-07-14 220400" src="https://github.com/user-attachments/assets/9243da47-bf27-4b67-9eb8-6bac3078539a" />
+
+
 <b>Menonaktifkan interface</b><br>
 /interface disable ether2
+
+<img width="466" height="163" alt="Screenshot 2026-07-14 220531" src="https://github.com/user-attachments/assets/efd741c5-76a4-4527-a8a6-4184123c2601" />
+
 
 <b>Mengaktifkan interface</b><br>
 /interface enable ether2
 
+<img width="466" height="164" alt="Screenshot 2026-07-14 220551" src="https://github.com/user-attachments/assets/0dee6f1d-8cd5-424b-bb54-d85fba36de01" />
+
+
 <b>Melihat resource router</b><br>
 /system resource print
+
+<img width="464" height="236" alt="Screenshot 2026-07-14 220624" src="https://github.com/user-attachments/assets/6f775478-f6a5-488a-9f00-3ca372bbbf6b" />
+
 
 <b>Melakukan restart MikroTik</b><br>
 /system reboot
