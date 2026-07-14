@@ -78,7 +78,7 @@ user print<br>
 <img width="464" height="65" alt="Screenshot 2026-07-14 203827" src="https://github.com/user-attachments/assets/084c5f80-135d-4c11-a270-5faf713768c7" />
 
 
-<b>Menghubungkan internet menggunakan DHCP Client</b><br>
+<b>Menambahkan DHCP Client</b><br>
 /ip dhcp-client add interface=ether1 disabled=no
 
 <img width="440" height="53" alt="Screenshot 2026-07-14 204510" src="https://github.com/user-attachments/assets/78c23f12-7877-4dce-900d-99089556734e" />
