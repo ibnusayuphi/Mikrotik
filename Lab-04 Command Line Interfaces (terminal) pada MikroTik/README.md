@@ -155,6 +155,6 @@ user print<br>
 <img width="413" height="57" alt="Screenshot 2026-07-14 210411" src="https://github.com/user-attachments/assets/b87ec125-7134-4f56-b01a-05c41a9b1a25" />
 
 
-<th>
+<hr>
 <b>Kesimpulan</b><br>
 CLI (Command Line Interface) merupakan cara melakukan konfigurasi MikroTik menggunakan perintah atau command yang diketik langsung pada terminal.
