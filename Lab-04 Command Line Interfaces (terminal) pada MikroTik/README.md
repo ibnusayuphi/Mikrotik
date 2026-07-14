@@ -79,7 +79,7 @@ user print<br>
 
 
 <b>Menambahkan DHCP Client</b><br>
-/ip dhcp-client add interface=ether1 disabled=no
+/ip dhcp-client add interface=ether1 add-default-route=yes use-peer-ntp=yes use-peer-dns=yes disabled=no
 
 <img width="440" height="53" alt="Screenshot 2026-07-14 204510" src="https://github.com/user-attachments/assets/78c23f12-7877-4dce-900d-99089556734e" />
 
