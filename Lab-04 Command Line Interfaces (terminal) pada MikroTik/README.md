@@ -39,28 +39,30 @@ Saat menggunakan CLI disarankan untuk membiasakan menggunakan tombol Tab dibandi
 
 
 <b>Melihat daftar interface</b><br>
-/interface print
+/interface print<br>
 
 <img width="470" height="122" alt="Screenshot 2026-06-25 172911" src="https://github.com/user-attachments/assets/a57e3da7-5ce8-429a-ad01-c7fdefd70083" />
 
 
 <b>Melihat lisensi</b><br>
-system license print
+system license print<br>
 
 <img width="471" height="88" alt="Screenshot 2026-06-25 172717" src="https://github.com/user-attachments/assets/f5d2506a-f758-49c5-b0f4-259679cd9a9d" />
 
 <b>Menambahkan user</b><br>
-user add name=ibnu password=1234 group=full
+user add name=ibnu password=1234 group=full<br>
 <img width="468" height="37" alt="Screenshot 2026-07-14 202951" src="https://github.com/user-attachments/assets/6c2e09f7-7d05-4590-b0d5-bad0a5d0454d" />
 
 
 <b>Mengganti password admin</b><br>
-password
+password<br>
+
 <img width="467" height="65" alt="Screenshot 2026-07-14 203150" src="https://github.com/user-attachments/assets/5b0221dd-e6b2-4258-a256-58419d4260a3" />
 
 
 <b>Melihat user</b><br>
-user print
+user print<br>
+
 <img width="467" height="95" alt="Screenshot 2026-07-14 203331" src="https://github.com/user-attachments/assets/e628b713-9a9e-4dd0-bcab-62260cd16f62" />
 
 
