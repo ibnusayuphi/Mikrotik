@@ -145,13 +145,13 @@ user print<br>
 
 
 <b>Menonaktifkan interface</b><br>
-/interface disable ether2
+/interface disable ether3
 
 <img width="466" height="163" alt="Screenshot 2026-07-14 220531" src="https://github.com/user-attachments/assets/efd741c5-76a4-4527-a8a6-4184123c2601" />
 
 
 <b>Mengaktifkan interface</b><br>
-/interface enable ether2
+/interface enable ether3
 
 <img width="466" height="164" alt="Screenshot 2026-07-14 220551" src="https://github.com/user-attachments/assets/0dee6f1d-8cd5-424b-bb54-d85fba36de01" />
 
