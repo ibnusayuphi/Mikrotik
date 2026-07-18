@@ -9,3 +9,4 @@ Untuk melakukan upgrade Router OS ini memiliki 2 cara, yaitu cara manual dan car
   Kita bisa mendapatkan modul tersebut pada website resmi mikrotik <a href="https://mikrotik.com/download">Klik Di sini</a></li>
   <li>tes</li>
 </ol>
+
