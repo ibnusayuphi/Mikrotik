@@ -14,7 +14,7 @@ Untuk melakukan upgrade Router OS ini memiliki 2 cara, yaitu cara manual dan car
   Untuk upgrade RouterOs secara manual ini kita bebas memilih versi berapa yang kita mau(bisa disesuaikan)
 </ol>
 
-<h3>2)Upgrade RouterOs secara otomatis</h3>
+<b>2)Upgrade RouterOs secara otomatis</b>
 Cara ini lebih mudah dibandingkan upgrade secara manual, namun dengan cara ini kita tidak dapat menentukan versi RouterOS, Secara otomotis router akan mencari versi RouterOS terbaru. Adapun cara caranya sebagai berikut:
 <ol type=a>
   <li>Pastikan router sudah terhubung ke internet. Untuk caranya bisa dilihat di <a href="https://github.com/ibnusayuphi/Mikrotik/blob/main/Lab-05%20Mengkoneksikan%20MikroTik%20ke%20%20internet/README.md">lab ini.</a></li>
