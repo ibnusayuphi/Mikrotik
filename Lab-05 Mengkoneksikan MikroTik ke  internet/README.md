@@ -1,4 +1,4 @@
-<img width="323" height="314" alt="image" src="https://github.com/user-attachments/assets/548a84b2-e30e-45d9-bc84-6509851be761" /><h1>Lab5. Mengkoneksikan MikroTik ke internet</h1>
+<h1>Lab5. Mengkoneksikan MikroTik ke internet</h1>
 Jadi untuk mengkoneksikan MikroTik ke internet itu memiliki dua cara, yang pertama dengan dynamic ip dengan memanfaatkan fitur DHCP Client, nahh yang kedua kita setting manual atau statis.
 
 <h3>1. Sumber internet IP dynamic</h3><br>
