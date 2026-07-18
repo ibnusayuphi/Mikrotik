@@ -11,7 +11,18 @@ Untuk melakukan upgrade Router OS ini memiliki 2 cara, yaitu cara manual dan car
   masuk ke menu file > upload. lalu pilih modul yang telah di download tadi</li>
   <li>Lakukan soft reboot <b>system > reboot</b></li>
   <li>Setelah hidup kembali, pastikan versi RouterOS sudah berubah.</li>
+  Untuk upgrade RouterOs secara manual ini kita bebas memilih versi berapa yang kita mau(bisa disesuaikan)
 </ol>
 
-
+<h3>2)Upgrade RouterOs secara otomatis</h3>
+Cara ini lebih mudah dibandingkan upgrade secara manual, namun dengan cara ini kita tidak dapat menentukan versi RouterOS, Secara otomotis router akan mencari versi RouterOS terbaru. Adapun cara caranya sebagai berikut:
+<ol>
+  <li>Pastikan router sudah terhubung ke internet. Untuk caranya bisa dilihat di <a href="https://github.com/ibnusayuphi/Mikrotik/blob/main/Lab-05%20Mengkoneksikan%20MikroTik%20ke%20%20internet/README.md">lab ini.</a></li>
+  <li>Buka System > Packages.</li>
+  <li>Klik Check for Updates.</li>
+  <li>Pilih channel sesuai kebutuhan (Stable, Testing, atau Development).</li>
+  <li>Klik Download & Install.</li>
+  <li>Router akan melakukan restart secara otomatis.</li>
+  <li>Setelah hidup kembali, pastikan versi RouterOS sudah berubah.</li>
+</ol>
 
