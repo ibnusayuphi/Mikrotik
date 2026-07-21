@@ -30,10 +30,26 @@ Cara ini lebih mudah dibandingkan upgrade secara manual, namun dengan cara ini k
 Downgrade adalah proses mengembalikan RouterOS ke versi yang lebih lama. Biasanya dilakukan apabila versi terbaru mengalami bug, terdapat fitur yang tidak kompatibel, atau konfigurasi tidak berjalan dengan baik setelah upgrade. Untuk caranya kurang lebih sama dengan cara upgrade Routeros secara manual, berikut caranya:
 <ol type=a>
   <li>Download versi RouterOS yang diinginkan dari website MikroTik <a href="https://mikrotik.com/download">Klik Di sini.</a></li> 
-  <li>Upload file package ke router system > upload kemudian pilih modul yang telah kita download.</li>
+  <li>Upload file package ke router files > upload kemudian pilih modul yang telah kita download.</li>
   <li>Buka System > Packages > Downgrade.</li>
   <li>Router akan melakukan restart otomatis.</li>
   <li>Router akan menggunakan versi yang sebelumnya diupload.</li>
 </ol>
 
 <h3>C. Package Management</h3>
+Package Management adalah proses mengelola package yang ada pada RouterOS, seperti Melihat daftar package, mengetahui versi package, Mengaktifkan atau menonaktifkan package tertentu, Menambahkan package baru (Extra Package), downgrade dan upgrade RouterOS, pokoknya semua hal yang berkaitan dengan mengelola package, itu disebut package management. Berikut beberapa contoh caranya:
+<ol type=a>
+  <li>Melihat daftar dan versi package</li>
+  <li>Mengaktifkan package</li>
+  <li>Menonaktifkan package</li>
+  <li>Menghapus package yang tidak digunakan</li>
+</ol>
+
+<h3>Extra packages</h3>
+Extra Packages adalah package tambahan yang disediakan MikroTik untuk menambahkan fitur tertentu yang belum tersedia pada instalasi RouterOS. Contohnya wireless, user manager, dude, Iot dan package lainnya. Extra Package biasanya diunduh dari website resmi MikroTik, kemudian di-upload ke router dan akan aktif setelah router direstart. Berikut cara lengkap menambahkan extra package ke router:
+<ol type=a>
+  <li>Download extra packages yang diinginkan dari website MikroTik <a href="https://mikrotik.com/download">Klik Di sini. Kali ini saya akan menambahan package wireless, jadi download yang wireless.</a></li> 
+  <li>Upload file  extra package ke router. files > upload kemudian pilih modul yang telah kita download.</li>
+  <li>Lakukan soft reboot <b>system > reboot</b></li>
+  <li>Setelah hidup kembali, lihat pada menu system > packages. apakah extra package yang tadi ditambahkan sudah tersedia.</li>
+</ol>
