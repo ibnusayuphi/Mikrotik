@@ -53,3 +53,6 @@ Extra Packages adalah package tambahan yang disediakan MikroTik untuk menambahka
   <li>Lakukan soft reboot <b>system > reboot</b></li>
   <li>Setelah hidup kembali, lihat pada menu system > packages. apakah extra package yang tadi ditambahkan sudah tersedia.</li>
 </ol>
+<hr>
+<b>Kesimpulan</b><br>
+Upgrade digunakan untuk memperbarui RouterOS ke versi yang lebih baru, sedangkan downgrade digunakan untuk kembali ke versi sebelumnya jika terjadi kendala. Selain itu, package management membantu mengelola package yang ada di RouterOS sehingga fitur yang digunakan dapat disesuaikan dengan kebutuhan.
