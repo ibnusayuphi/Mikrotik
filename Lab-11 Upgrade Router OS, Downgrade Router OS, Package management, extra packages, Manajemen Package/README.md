@@ -45,10 +45,10 @@ Package Management adalah proses mengelola package yang ada pada RouterOS, seper
   <li>Menghapus package yang tidak digunakan</li>
 </ol>
 
-<h3>Extra packages</h3>
+<h3>D. Extra packages</h3>
 Extra Packages adalah package tambahan yang disediakan MikroTik untuk menambahkan fitur tertentu yang belum tersedia pada instalasi RouterOS. Contohnya wireless, user manager, dude, Iot dan package lainnya. Extra Package biasanya diunduh dari website resmi MikroTik, kemudian di-upload ke router dan akan aktif setelah router direstart. Berikut cara lengkap menambahkan extra package ke router:
 <ol type=a>
-  <li>Download extra packages yang diinginkan dari website MikroTik <a href="https://mikrotik.com/download">Klik Di sini. Kali ini saya akan menambahan package wireless, jadi download yang wireless.</a></li> 
+  <li>Download extra packages yang diinginkan dari website MikroTik <a href="https://mikrotik.com/download">Klik Di sini.</a>Kali ini saya akan menambahan package wireless, jadi download yang wireless.</li> 
   <li>Upload file  extra package ke router. files > upload kemudian pilih modul yang telah kita download.</li>
   <li>Lakukan soft reboot <b>system > reboot</b></li>
   <li>Setelah hidup kembali, lihat pada menu system > packages. apakah extra package yang tadi ditambahkan sudah tersedia.</li>
