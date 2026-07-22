@@ -15,11 +15,11 @@ Di lab sebelumnya kan tidak disarankan jika melakukan backup restore pada versi 
 </ol>
 <b>Export hanya konfigurasi tertentu</b><br>
 Misal hanya IP Address:<br>
-<b>/ip address export file=ip-address</b>
+<b>/ip address export file=ip-address</b><br>
 Hanya firewall NAT:<br>
-<b>/ip firewall nat export file=nat</b>
+<b>/ip firewall nat export file=nat</b><br>
 Hanya DHCP Server:<br>
-<b>/ip dhcp-server export file=dhcp</b>
+<b>/ip dhcp-server export file=dhcp</b><br>
 
 jangan lupa setiap sudah melakukan export filenya upload ke laptop atau pc masing masing ya.
 
