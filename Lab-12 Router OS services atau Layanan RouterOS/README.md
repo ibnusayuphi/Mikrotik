@@ -1,5 +1,5 @@
 <h1>Lab 12 Router OS services atau Layanan Router OS</h1>
-Pada lab 1 kita telah membahas bagaimana kita bisa mengakses MikroTik dengan berbagai cara. Namun pada kesempatan kali ini kita akan mempelajari berbagai layanan (services) yang ada pada RouterOS, fungsi dari masing-masing service, serta cara mengaktifkan, menonaktifkan, dan mengubah konfigurasi service sesuai kebutuhan.<br>
+Pada lab 1 kita telah membahas bagaimana kita bisa mengakses MikroTik dengan berbagai cara bisa menggunakan winbox, ssh, telnet, webfig, itu semua bisa dilakukan karena ada layanan services RouterOs. pada kesempatan kali ini kita akan mempelajari berbagai layanan services yang ada pada RouterOS, fungsi dari masing-masing service, serta cara mengaktifkan, menonaktifkan, dan mengubah konfigurasi service sesuai kebutuhan.<br>
 Router MikroTik menjalankan services untuk memudahkan cara user dalam mengakses router atau menggunakan fitur lainnya. Kita bisa lihat services yang dijalankan mikrotik pada menu <b>ip > services</b>
 
 Ada beberapa service yang secara default dijalankan oleh router mikrotik. Berikut detail informasi service router MikroTik dan kegunaannya:
