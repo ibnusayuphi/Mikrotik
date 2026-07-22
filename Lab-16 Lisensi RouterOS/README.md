@@ -39,7 +39,7 @@ Level 4 merupakan lisensi yang paling banyak digunakan karena sudah mendukung mo
   <li>Semua fitur pada Level 3.
   <li>Wireless Access Point (AP).
   <li>Mendukung hingga 200 Hotspot Active User.
-  <li>Cocok digunakan di rumah, sekolah, maupun kantor.<ul>
+  <li>Cocok digunakan di rumah, sekolah, maupun kantor.</li>
 <li>Level 5</li>
 Masa Aktif: Selamanya<br>
 Level 5 memiliki fitur yang sama dengan Level 4, tetapi mampu menangani jumlah pengguna yang lebih banyak.
