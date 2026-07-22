@@ -15,46 +15,96 @@ Level 1 adalah lisensi gratis dengan fitur yang sangat terbatas sehingga lebih c
   <ul>Perbedaan dari Level 0:
   <li>Tidak memiliki batas waktu penggunaan.</li>
   <li>Fitur yang tersedia lebih terbatas.</li></ul>
-Fitur Utama:
-Konfigurasi dasar RouterOS.
-Maksimal 1 Queue, 1 Hotspot, dan 1 Tunnel.
-Tidak mendukung Wireless Access Point (AP).
-Tidak mendukung Dynamic Routing.
-Level 3
+<ul>Fitur Utama:
+  <li>Konfigurasi dasar RouterOS</li>
+  <li>Maksimal 1 Queue, 1 Hotspot, dan 1 Tunnel.</li>
+  <li>Tidak mendukung Wireless Access Point (AP).</li>
+  <li>Tidak mendukung Dynamic Routing.</li></ul>
+<li>Level 3</li>
 Masa Aktif: Selamanya
 Level 3 dirancang untuk perangkat yang berfungsi sebagai Wireless Client (Station/CPE), yaitu perangkat yang menerima koneksi dari Access Point.
-Perbedaan dari Level 1:
-Sudah mendukung mode Wireless Client (Station/CPE).
-Fitur Utama:
-Semua fitur pada Level 1.
-Wireless Client (Station/CPE).
-Bridge dan manajemen Ethernet.
-Belum mendukung mode Access Point (AP).
-Level 4
+<ul>Perbedaan dari Level 1:
+<li>Sudah mendukung mode Wireless Client (Station/CPE).</li></ul>
+<ul>Fitur Utama:
+  <li>Semua fitur pada Level 1.</li>
+  <li>Wireless Client (Station/CPE).</li>
+  <li>Bridge dan manajemen Ethernet.</li>
+  <li>Belum mendukung mode Access Point (AP).</li></ul>
+<li>Level 4</li>
 Masa Aktif: Selamanya
 Level 4 merupakan lisensi yang paling banyak digunakan karena sudah mendukung mode Wireless Access Point (AP) sehingga router dapat membagikan koneksi internet ke banyak perangkat.
-Perbedaan dari Level 3:
-Sudah dapat digunakan sebagai Access Point (AP).
-Fitur Utama:
-Semua fitur pada Level 3.
-Wireless Access Point (AP).
-Mendukung hingga 200 Hotspot Active User.
-Cocok digunakan di rumah, sekolah, maupun kantor.
-Level 5
+<ul>Perbedaan dari Level 3:
+<li>Sudah dapat digunakan sebagai Access Point (AP).</li></ul>
+<ul>Fitur Utama:
+  <li>Semua fitur pada Level 3.
+  <li>Wireless Access Point (AP).
+  <li>Mendukung hingga 200 Hotspot Active User.
+  <li>Cocok digunakan di rumah, sekolah, maupun kantor.<ul>
+<li>Level 5</li>
 Masa Aktif: Selamanya
 Level 5 memiliki fitur yang sama dengan Level 4, tetapi mampu menangani jumlah pengguna yang lebih banyak.
-Perbedaan dari Level 4:
-Kapasitas pengguna lebih besar.
-Fitur Utama:
-Semua fitur pada Level 4.
-Mendukung hingga 500 Hotspot Active User.
-Level 6
+<ul>Perbedaan dari Level 4:
+  <li>Kapasitas pengguna lebih besar.</li></ul>
+<ul>Fitur Utama:
+  <li>Semua fitur pada Level 4.</li>
+  <li>Mendukung hingga 500 Hotspot Active User.</li></ul>
+<li>Level 6</li>
 Masa Aktif: Selamanya
 Level 6 merupakan lisensi tertinggi pada RouterOS dengan seluruh fitur yang tersedia tanpa batasan utama.
-Perbedaan dari Level 5:
-Tidak memiliki batasan jumlah pengguna.
-Fitur Utama:
+<ul>Perbedaan dari Level 5:
+  <li>Tidak memiliki batasan jumlah pengguna.</li></ul>
+<ul>Fitur Utama:
+  <li>Semua fitur pada Level 5.</li>
+  <li>Hotspot Active User Unlimited.</li>
+  <li>Cocok digunakan untuk ISP dan jaringan berskala besar.</li></ul>
 
-Semua fitur pada Level 5.
-Hotspot Active User Unlimited.
-Cocok digunakan untuk ISP dan jaringan berskala besar.
+<b>Ringkasan lisensi RouterOS</b>
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Level</th>
+        <th>Masa Aktif</th>
+        <th>Perbedaan Utama</th>
+    </tr>
+    <tr>
+        <td><b>0</b></td>
+        <td>24 Jam</td>
+        <td>Trial, seluruh fitur RouterOS dapat digunakan selama masa percobaan.</td>
+    </tr>
+    <tr>
+        <td><b>1</b></td>
+        <td>Selamanya</td>
+        <td>Lisensi gratis dengan fitur yang sangat terbatas.</td>
+    </tr>
+    <tr>
+        <td><b>3</b></td>
+        <td>Selamanya</td>
+        <td>Sudah mendukung mode Wireless Client (Station/CPE).</td>
+    </tr>
+    <tr>
+        <td><b>4</b></td>
+        <td>Selamanya</td>
+        <td>Sudah mendukung mode Wireless Access Point (AP).</td>
+    </tr>
+    <tr>
+        <td><b>5</b></td>
+        <td>Selamanya</td>
+        <td>Sama seperti Level 4, tetapi kapasitas pengguna lebih besar.</td>
+    </tr>
+    <tr>
+        <td><b>6</b></td>
+        <td>Selamanya</td>
+        <td>Seluruh fitur tersedia tanpa batasan utama (Unlimited).</td>
+    </tr>
+</table>
+
+<h3>Cara melihat lisensi RouterOS</h3>
+<b>Mengunakan Winbox</b><br>
+Buka menu: system > license<br>
+
+<b>Menggunakan terminal</b><br>
+ketik: system license print
+
+
+<hr>
+<h3>Kesimpulan</h3>
+Lisensi RouterOS merupakan izin resmi yang menentukan fitur dan kemampuan yang dapat digunakan pada sistem operasi RouterOS. Setiap level lisensi memiliki fungsi dan batasan yang berbeda sesuai kebutuhan pengguna. Secara umum, semakin tinggi level lisensi RouterOS, maka semakin banyak fitur dan kapasitas yang dapat digunakan. Oleh karena itu, kita dapat memilih level lisensi sesuai dengan kebutuhan jaringan yang akan dibangun. Pada perangkat RouterBOARD, lisensi umumnya sudah tersedia sejak pembelian, sedangkan pengguna RouterOS pada PC atau CHR perlu mengaktifkan lisensi secara terpisah.
