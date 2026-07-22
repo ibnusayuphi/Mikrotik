@@ -4,13 +4,13 @@ Lisensi RouterOS adalah izin resmi yang diberikan MikroTik agar sistem operasi R
 <h3>Jenis lisensi RouterOS</h3>
 <ol type=1>
 <li>Level 0 (Demo / Trial)</li>
-Masa Aktif: 24 Jam
+Masa Aktif: 24 Jam<br>
 Lisensi Level 0 merupakan lisensi percobaan yang diberikan saat RouterOS pertama kali diinstal. Selama masa trial, seluruh fitur RouterOS dapat digunakan. Setelah 24 jam, RouterOS harus diregistrasi menggunakan lisensi resmi agar dapat digunakan kembali.
   <ul>Fitur Utama:
   <li>Semua fitur RouterOS terbuka selama masa trial.</li>
   <li>Cocok untuk mencoba RouterOS sebelum membeli lisensi.</li></ul>
 <li>Level 1 (Free)</li>
-Masa Aktif: Selamanya
+Masa Aktif: Selamanya<br>
 Level 1 adalah lisensi gratis dengan fitur yang sangat terbatas sehingga lebih cocok digunakan untuk belajar.
   <ul>Perbedaan dari Level 0:
   <li>Tidak memiliki batas waktu penggunaan.</li>
@@ -21,7 +21,7 @@ Level 1 adalah lisensi gratis dengan fitur yang sangat terbatas sehingga lebih c
   <li>Tidak mendukung Wireless Access Point (AP).</li>
   <li>Tidak mendukung Dynamic Routing.</li></ul>
 <li>Level 3</li>
-Masa Aktif: Selamanya
+Masa Aktif: Selamanya<br>
 Level 3 dirancang untuk perangkat yang berfungsi sebagai Wireless Client (Station/CPE), yaitu perangkat yang menerima koneksi dari Access Point.
 <ul>Perbedaan dari Level 1:
 <li>Sudah mendukung mode Wireless Client (Station/CPE).</li></ul>
@@ -31,7 +31,7 @@ Level 3 dirancang untuk perangkat yang berfungsi sebagai Wireless Client (Statio
   <li>Bridge dan manajemen Ethernet.</li>
   <li>Belum mendukung mode Access Point (AP).</li></ul>
 <li>Level 4</li>
-Masa Aktif: Selamanya
+Masa Aktif: Selamanya<br>
 Level 4 merupakan lisensi yang paling banyak digunakan karena sudah mendukung mode Wireless Access Point (AP) sehingga router dapat membagikan koneksi internet ke banyak perangkat.
 <ul>Perbedaan dari Level 3:
 <li>Sudah dapat digunakan sebagai Access Point (AP).</li></ul>
@@ -41,7 +41,7 @@ Level 4 merupakan lisensi yang paling banyak digunakan karena sudah mendukung mo
   <li>Mendukung hingga 200 Hotspot Active User.
   <li>Cocok digunakan di rumah, sekolah, maupun kantor.<ul>
 <li>Level 5</li>
-Masa Aktif: Selamanya
+Masa Aktif: Selamanya<br>
 Level 5 memiliki fitur yang sama dengan Level 4, tetapi mampu menangani jumlah pengguna yang lebih banyak.
 <ul>Perbedaan dari Level 4:
   <li>Kapasitas pengguna lebih besar.</li></ul>
@@ -49,7 +49,7 @@ Level 5 memiliki fitur yang sama dengan Level 4, tetapi mampu menangani jumlah p
   <li>Semua fitur pada Level 4.</li>
   <li>Mendukung hingga 500 Hotspot Active User.</li></ul>
 <li>Level 6</li>
-Masa Aktif: Selamanya
+Masa Aktif: Selamanya<br>
 Level 6 merupakan lisensi tertinggi pada RouterOS dengan seluruh fitur yang tersedia tanpa batasan utama.
 <ul>Perbedaan dari Level 5:
   <li>Tidak memiliki batasan jumlah pengguna.</li></ul>
