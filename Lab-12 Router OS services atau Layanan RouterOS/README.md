@@ -64,5 +64,9 @@ kita gunakan topologi berikut:
   <li>Ganti port winbox sesuai kebutuhan, bisa diisi dari 1-65535 semua port itu bisa digunakan dengan catatan tidak menggunakan port yang sudah digunakan aplikasi lain, bisa saja kita menggunakan port yang sudah digunakan namun kedepannya ini bakal menjadi masalah, jadi disarankan untuk menggunakan port yang belum digunakan aplikasi lain. untuk informasi portnya bisa didapatkan<a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"> di sini.</a> tapi untuk kali ini saya akan menggunakan port 9000 untuk service winbox ini</li>
   <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal. klik apply > ok</li>
   <li>Disable services yang tidak digunakan. Jika kita hanya menggunakan service winbox saja untuk meremote kita bisa disable atau nonaktifkan services lain yang tidak digunakan. Gunanya agar router kita menjadi lebih aman.</li>
-    <li></li>
+    <li>Login ulang ke dalam winbox, ketika login ulang tambahkan ":(port) di ujung ip pada tab connect to", dan jangan lupa pastikan ip pc nya sesuai dengan ip yang sudah kita tambahkan tadi di menu available from.</li>
 </ol>
+
+<hr>
+<h3>Kesimpulan</h3>
+RouterOS Services menyediakan berbagai layanan untuk mengakses dan mengelola MikroTik, seperti Winbox, SSH, Telnet, FTP, WebFig, dan API. Pengaturan service yang tepat, seperti mengaktifkan service yang diperlukan, menonaktifkan service yang tidak digunakan, serta mengubah port atau membatasi akses, dapat membantu menjaga keamanan jaringan.
