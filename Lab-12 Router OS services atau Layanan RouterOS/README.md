@@ -49,12 +49,12 @@ Ada beberapa service yang secara default dijalankan oleh router mikrotik. Beriku
 <h3>Mengelola RouterOS services</h3>
 Nahh dari sekian banyak service yang disediakan oleh mikrotik apakah semua itu digunakan semuanya? maka dari itu kita bisa menonaktifkan service tersebut. Selain itu kita juga bisa menggganti nomor port dan membatasi alamat ip yang boleh mengakses router pada services tertentu. semua hal ini dilakukan untuk meningkatkan keamanan jaringan pada router kita.
 Beberapa hal yang dapat dilakukan antara lain:
-<ol>
+<ul>
   <li>Mengubah nomor port.</li>
   <li>Membatasi alamat IP yang boleh mengakses router.</li>
   <li>Mengaktifkan service (Enable).</li>
   <li>Menonaktifkan service (Disable).</li>
-</ol>
+</ul>
 <h3>Contoh konfigurasi</h3>
 kita gunakan topologi berikut:
 <ol type=a>
@@ -62,7 +62,7 @@ kita gunakan topologi berikut:
   <li>Pergi ke menu <b>ip > services</b></li>
   <li>Masuk ke services winbox</li>
   <li>Ganti port winbox sesuai kebutuhan, bisa diisi dari 1-65535 semua port itu bisa digunakan dengan catatan tidak menggunakan port yang sudah digunakan aplikasi lain, bisa saja kita menggunakan port yang sudah digunakan namun kedepannya ini bakal menjadi masalah, jadi disarankan untuk menggunakan port yang belum digunakan aplikasi lain. untuk informasi portnya bisa didapatkan di sini. tapi untuk kali ini saya akan menggunakan port 9000 untuk service winbox ini</li>
-  <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal<. klik apply > ok/li>
+  <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal. klik apply > ok/li>
   <li>Disable services. Jika kita hanya menggunakan service winbox saja untuk meremote kita bisa disable atau nonaktifkan services lain yang tidak digunakan. Gunanya agar router kita menjadi lebih aman.</li>
     <li></li>
 </ol>
