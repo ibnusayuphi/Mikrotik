@@ -13,7 +13,7 @@ Di lab sebelumnya kan tidak disarankan jika melakukan backup restore pada versi 
   <li>Buka menu files, maka akan muncul file yang sudah kita backup tadi dalam bentuk .rsc</li>
   <li>Selanjutnya pindahkan file tersebut ke dalam laptop atau pc kita</li>
 </ol>
-<b>Export hanya konfigurasi tertentu</b>
+<b>Export hanya konfigurasi tertentu</b><br>
 Misal hanya IP Address:<br>
 <b>/ip address export file=ip-address</b>
 Hanya firewall NAT:<br>
