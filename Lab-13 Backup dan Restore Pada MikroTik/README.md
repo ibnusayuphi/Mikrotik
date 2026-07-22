@@ -29,3 +29,6 @@ Restore adalah proses mengembalikan konfigurasi router menggunakan file backup y
   <li>Router akan melakukan restart secara otomatis.</li>
   <li>Setelah router menyala kembali, seluruh konfigurasi akan kembali seperti saat backup dibuat.</li>
 </ol>
+<hr>
+<h3>Kesimpulan</h3>
+Backup dan restore merupakan fitur yang digunakan untuk menjaga keamanan konfigurasi pada MikroTik. Backup berfungsi menyimpan seluruh konfigurasi router, sedangkan restore digunakan untuk mengembalikan konfigurasi yang telah disimpan. Metode backup dan restore disarankan untuk melakukannya pada versi perangkat atau routeros yang sama untuk menghindari error. File .backup isinya merupakan kumpulan angka biner.
