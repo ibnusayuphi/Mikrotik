@@ -20,7 +20,7 @@ Dengan DHCP Client, MikroTik akan memperoleh: IP Address, Gateway, DNS Server da
 </ol>
 
 <h3>DHCP Server</h3>
-Jika DHCP Client menerima informasi jaringan secara otomatis maka DHCP Server adalah protokol yang membagikan informasi jaringan tersebut. Jadi DHCP Server adalah perangkat atau layanan jaringan yang membagikan alamat IP, subnet mask, dan data jaringan lain secara otomatis kepada perangkat lain. Tanpa layanan ini, Anda harus memasukkan nomor IP satu per satu ke tiap komputer. 
+Jika DHCP Client menerima informasi jaringan secara otomatis maka DHCP Server adalah protokol yang membagikan informasi jaringan tersebut. Jadi DHCP Server adalah protokol yang membagikan alamat IP, subnet mask, dan data jaringan lain secara otomatis kepada perangkat lain atau client. Tanpa layanan ini, kita harus memasukkan nomor IP satu per satu ke tiap komputer. 
 <h4>Cara konfigurasi DHCP Server</h4>
 <ol>
   <li>Masuk ke menu ip > DHCP Server</li>
