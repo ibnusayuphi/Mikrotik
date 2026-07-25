@@ -39,3 +39,14 @@ Proses komunikasi antara client dan server umumnya dikenal dengan singkatan DORA
 
 <h2>DNS</h2>
 DNS (Domain Name System) adalah layanan yang mengubah nama domain menjadi IP Address. Sebagai contoh, ketika kita membuka: <b>www.google.com</b> Router akan meminta bantuan DNS untuk mencari alamat IP dari server Google. Tanpa DNS, kita hanya bisa mengakses website menggunakan alamat IP.
+<h4>konfigurasi DNS pada MikroTik</h4>
+<ol>
+  <li>Masuk ke menu: IP > DNS</li>
+  <li>Masukan DNS Server, di sini saya akan memasukan dns google dan cloudflare karena ini biasa yang sering digunakan. disesuaikan saja ya</li>
+  <li>Kemudian centang: Allow Remote Requests. Allow Remote Requests</li>
+</ol>
+
+<hr>
+<h3>Kesimpulan</h3>
+DHCP merupakan suatu protokol yang berfungsi memberikan konfigurasi jaringan secara otomatis kepada perangkat yang terhubung. DHCP terdiri dari dua jenis, yaitu DHCP Client yang digunakan untuk menerima konfigurasi jaringan, dan DHCP Server yang digunakan untuk membagikan konfigurasi kepada client. Selain itu, DNS berfungsi menerjemahkan nama domain menjadi alamat IP sehingga perangkat dapat mengakses website dengan lebih mudah tanpa harus menghafal alamat IP dari tiap tiap website.
+
