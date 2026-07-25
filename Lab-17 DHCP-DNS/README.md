@@ -10,10 +10,10 @@ Dengan DHCP Client, MikroTik akan memperoleh: IP Address, Gateway, DNS Server da
   <li>Masuk ke menu ip > DHCP Client</li>
   <li>Klik Add (+) pilih:<br>
   - Interface: ether1 (sesuaikan dengan interface yang terhubung langsung dengan sumber internet)</li>
-  <li>Centang pada:
-  - Add Default Route
-  - Use Peer DNS
-  - Use Peer NTP
+  <li>Centang pada:<br>
+  - Add Default Route<br>
+  - Use Peer DNS<br>
+  - Use Peer NTP<br>
   Klik Apply lalu OK.</li>
 
   Dengan konfigurasi ini, MikroTik akan memperoleh IP Address, Gateway, dan DNS secara otomatis.
@@ -38,7 +38,7 @@ Proses komunikasi antara client dan server umumnya dikenal dengan singkatan DORA
 </ol>
 
 <h2>DNS</h2>
-DNS (Domain Name System) adalah layanan yang mengubah nama domain menjadi IP Address. Sebagai contoh, ketika kita membuka: <b>www.google.com</b> Router akan meminta bantuan DNS untuk mencari alamat IP dari server Google. Tanpa DNS, kita hanya bisa mengakses website menggunakan alamat IP.
+DNS (Domain Name System) adalah layanan yang mengubah nama domain menjadi IP Address. Sebagai contoh, ketika kita membuka: <b>www.google.com</b> Router akan meminta bantuan DNS untuk mencari alamat IP dari server Google. Tanpa DNS, kita hanya bisa mengakses website menggunakan alamat IP. Jadi ibaratnya DNS itu adalah sebuah kontak di telepon kita, misal ketika  kita akan menelpon teman kita, kita tinggal lakukan saja pencarian nama pada kontak kita tanpa harus mengingat nomor teleponnya. Kurang lebih seperti itu juga DNS bekerja.
 <h4>konfigurasi DNS pada MikroTik</h4>
 <ol>
   <li>Masuk ke menu: IP > DNS</li>
