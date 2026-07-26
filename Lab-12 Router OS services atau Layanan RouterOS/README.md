@@ -78,6 +78,7 @@ kita gunakan topologi berikut:
   </li>
   <li>Ganti port winbox sesuai kebutuhan, bisa diisi dari 1-65535 semua port itu bisa digunakan dengan catatan tidak menggunakan port yang sudah digunakan aplikasi lain, bisa saja kita menggunakan port yang sudah digunakan namun kedepannya ini bakal menjadi masalah, jadi disarankan untuk menggunakan port yang belum digunakan aplikasi lain. untuk informasi portnya bisa didapatkan<a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"> di sini.</a> tapi untuk kali ini saya akan menggunakan port 9000 untuk service winbox ini
   
+  
 <img width="200" height="155" alt="Screenshot 2026-07-26 184628" src="https://github.com/user-attachments/assets/a230db0e-f8ed-469e-854a-eb2ee38c11cd" />
 
   
