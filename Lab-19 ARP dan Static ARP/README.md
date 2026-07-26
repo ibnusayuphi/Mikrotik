@@ -16,7 +16,7 @@ Berbeda dengan ARP=enabled yang otomatis menambahkan perangkat yang terhubung ke
 </ol>
 
 <h3>DHCP + ARP</h3>
-Selain itu ARP Reply-Only juga kita bisa combokan dengan DHCP juga. Jadi ketika ada perangkat yang terhubung menggunakan DHCP maka akan otomatis ditambahkan ke tabel ARP. Tetapi ketika ada yang mencoba terhubung menggunakan IP static makan tidak akan bisa karena harus didaftarkan terlebih dahulu ke dalam ARP tabel. Berikut caranya:
+Selain itu ARP Reply-Only juga kita bisa combokan dengan DHCP juga. Jadi ketika ada perangkat yang terhubung menggunakan DHCP maka akan otomatis ditambahkan ke tabel ARP. Tetapi ketika ada yang mencoba terhubung menggunakan IP static maka tidak akan bisa karena harus didaftarkan terlebih dahulu ke dalam ARP tabel. Berikut caranya:
 <ol>
   <li>Aktifkan ARP Reply-only</li>
   <li>Masuk ke menu IP > DHCP Server. pastikan kalian sudah membuatnya</li>
