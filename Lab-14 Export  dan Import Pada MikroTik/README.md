@@ -27,10 +27,10 @@ Di lab sebelumnya kan tidak disarankan jika melakukan backup restore pada versi 
 </ol>
 <b>Export hanya konfigurasi tertentu</b><br>
 Misal hanya IP Address:<br>
+<b>/ip address export file=ip-address</b><br>
 
 <img width="470" height="49" alt="Screenshot 2026-07-26 203516" src="https://github.com/user-attachments/assets/505542e0-1b62-4a5a-bde1-ed213762d00f" />
 
-<b>/ip address export file=ip-address</b><br>
 Hanya firewall NAT:<br>
 <b>/ip firewall nat export file=nat</b><br>
 
