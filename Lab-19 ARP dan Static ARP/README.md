@@ -21,7 +21,7 @@ Selain itu ARP Reply-Only juga kita bisa combokan dengan DHCP juga. Jadi ketika 
   <li>Aktifkan ARP Reply-only</li>
   <li>Masuk ke menu IP > DHCP Server. pastikan kalian sudah membuatnya</li>
   <li>Buka DHCP nya, lalu pada bagian bawah centang bagian <b>Add ARP For Leases</b></li>
-  <li>Klik Aplly lalu ok</li>
+  <li>Klik Apply lalu ok</li>
   <li>Test menggunakan DHCP</li>
   <li>Test menggunakan IP static</li>
 </ol>
