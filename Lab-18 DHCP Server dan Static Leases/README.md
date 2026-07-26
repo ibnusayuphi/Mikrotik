@@ -7,7 +7,8 @@ Static Lease adalah fitur pada DHCP Server yang digunakan untuk mengikat sebuah 
   <li>Pastikan kalian sudah membuat DHCP Server sebelumnya. Buka menu: IP > DHCP Server > leases. Pada menu leases juga kita bisa melihat perangkat siapa saja yang terhubung dengan router kita.<br>
   Sebelum kita buat static terdapat flag D yang berarti dynamic.</li>
   <li>klik perangkat yang akan kita buat jadi static leases</li>
-  <li>Klik <b>make static</b> klik Apply lalu ok<br> Maka jika sudah dibuat static flag D akan hilang, karena kita sudah berhasil membuatnya menjadi static.</li>
+  <li>Klik <b>make static</b> klik Apply lalu ok</li>
+  <li>Maka jika sudah dibuat static flag D akan hilang, karena kita sudah berhasil membuatnya menjadi static.</li>
 </ol>
 
 <h3> 2. Menambahkan static leases manual</h3>
