@@ -17,7 +17,7 @@ Bridge adalah fitur pada MikroTik yang digunakan untuk menggabungkan beberapa in
   <li>Klik add (+)</li>
   <li>Pilih:<br>Interface: ether2<br>Bridge: bridge-LAN</li>
   <li>Klik Apply lalu ok</li>
-  <li>Lakukan hal yang sama untuk interfce lain yang akan ditambahkan ke dalam bridge</li
+  <li>Lakukan hal yang sama untuk interfce lain yang akan ditambahkan ke dalam bridge</li>
   
 </ul>
 
