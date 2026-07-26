@@ -7,13 +7,33 @@ Jadi file ini memang dibuat khusus agar hanya bisa diproses oleh RouterOS.<br>
 <b>Cara Melakukan Backup</b>
 <ol type=1>
   <li>Masuk ke MikroTik menggunakan Winbox.</li>
+
+  <img width="959" height="458" alt="Screenshot 2026-07-26 193825" src="https://github.com/user-attachments/assets/4b411e47-5776-4204-a630-287b7a664c7f" />
+
   <li>Pilih menu <b>Files</b></li>
+
+  <img width="959" height="458" alt="Screenshot 2026-07-26 193825-" src="https://github.com/user-attachments/assets/105a1ab8-22d1-444d-8872-585838fcd46f" />
+
   <li>Klik tombol <b>Backup</b></li>
-  <li>Isi nama file backup (opsional).</li>
-  <li>Jika diperlukan, tambahkan password untuk mengamankan file backup.</li>
-  <li>Klik Backup.</li>
+
+  <img width="400" height="280" alt="Screenshot 2026-07-26 193150" src="https://github.com/user-attachments/assets/2e920321-c355-4c80-a082-2922e0d7e63e" />
+
+  <li>Isi nama file backup.</li>
+
+  <img width="215" height="98" alt="Screenshot 2026-07-26 193246" src="https://github.com/user-attachments/assets/0c207cf9-7204-47ce-a44b-4cfb3cd752c8" />
+
+  <li>Jika diperlukan, tambahkan password untuk mengamankan file backup. Jika sudah klik backup</li>
+
+  <img width="214" height="98" alt="Screenshot 2026-07-26 193311" src="https://github.com/user-attachments/assets/33db131c-0806-49d1-85c2-f1c380b541b3" />
+
   <li>File backup akan muncul pada menu Files.</li>
+
+  <img width="400" height="157" alt="Screenshot 2026-07-26 193350" src="https://github.com/user-attachments/assets/4b42dd86-d75c-44b7-8b59-7ed6ef035ab7" />
+
   <li>Simpan file backup tersebut ke komputer sebagai cadangan. bisa dilakukan dengan cara drag and drop</li>
+
+  <img width="959" height="503" alt="Screenshot 2026-07-26 193532" src="https://github.com/user-attachments/assets/04f44030-8d18-4098-a64f-9f357b423578" />
+
 </ol>
 
 <h3>Restore</h3>
