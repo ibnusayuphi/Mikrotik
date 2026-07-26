@@ -17,7 +17,7 @@ Static Lease adalah fitur pada DHCP Server yang digunakan untuk mengikat sebuah 
   <li>Klik add (+)</li>
   <li>Kemudian isi IP address sesuai keinginan asal masih berada dalam rentang DHCP pool, isikan juga MAC Address dengan MAC Address perangkat yang ingin kalian tambahkan. Untuk lengkapnya seperti ini.</li>
   <li>Kemudian klik Apply lalu ok</li>
-  <li>Kita coba hubungkan perangkat yang tadi sudah kita tambahkan MAC Address, lalu kita cek IP nya.</li>
+  <li>Kita coba hubungkan perangkat yang tadi sudah kita tambahkan MAC Addressnya, lalu kita cek IP nya.</li>
 </ol>
 
 
