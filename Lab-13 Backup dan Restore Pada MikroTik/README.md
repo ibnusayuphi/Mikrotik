@@ -40,14 +40,23 @@ Jadi file ini memang dibuat khusus agar hanya bisa diproses oleh RouterOS.<br>
 Restore adalah proses mengembalikan konfigurasi router menggunakan file backup yang sebelumnya telah dibuat. Dengan restore konfigurasi yang kita buat sebelumya dengan metode backup akan kembali seperti saat backup dibuat. Satu hal penting pastikan file backup sama atau sesuai dengan tipe perangkat dan versi RouterOS yang digunakan agar proses restore berjalan dengan baik. Jika sudah berbeda versi router, disarankan jangan menggunakan backup restore, karena ada kemungkinan malah akan terjadi error. Solusinya adalah dengan menggunakan fitur Export dan Import, yang akan dibahas di lab selanjutnya.<br>
 <b>Cara melakukan restore</b>
 <ol type=1>
-  <li>Masuk ke menu Files</li>
-  <li>Upload file .backup ke dalam router. di sini saya akan menggunakan metode drag and drop agar lebih mudah</li>
-  <li>Pilih file backup tersebut.</li>
+  <li>Masuk ke menu Files > Upload</li>
+
+  <img width="959" height="434" alt="Screenshot 2026-07-26 195934" src="https://github.com/user-attachments/assets/9539243b-ed6b-440a-ab64-951c2d61f975" />
+
+  <li>Pilih file backup.</li>
+
+  <img width="466" height="350" alt="Screenshot 2026-07-26 200033" src="https://github.com/user-attachments/assets/207e697b-2fad-413f-ba66-818be4c4ccea" />
+
   <li>Klik tombol Restore</li>
-  <li>Jika file menggunakan password, masukkan password backup.</li>
-  <li>Klik Restore.</li>
-  <li>Router akan melakukan restart secara otomatis.</li>
-  <li>Setelah router menyala kembali, seluruh konfigurasi akan kembali seperti saat backup dibuat.</li>
+
+  <img width="401" height="184" alt="Screenshot 2026-07-26 200054" src="https://github.com/user-attachments/assets/923265d9-46e8-47a6-bed6-455cc500475d" />
+
+  <li>Jika file menggunakan password, masukkan password backup. Kemudian klik restore</li>
+
+  <img width="266" height="96" alt="Screenshot 2026-07-26 200137" src="https://github.com/user-attachments/assets/6236b7fb-a74b-49d6-8874-aea8aede96dd" />
+  
+Router akan melakukan restart secara otomatis. Setelah router menyala kembali, seluruh konfigurasi akan kembali seperti saat backup dibuat.</li>
 </ol>
 <hr>
 <h3>Kesimpulan</h3>
