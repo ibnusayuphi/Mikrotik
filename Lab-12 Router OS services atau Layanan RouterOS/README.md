@@ -81,7 +81,6 @@ kita gunakan topologi berikut:
   
 <img width="200" height="155" alt="Screenshot 2026-07-26 184628" src="https://github.com/user-attachments/assets/a230db0e-f8ed-469e-854a-eb2ee38c11cd" />
 
-  
   </li>
   <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal. klik apply > ok
   
@@ -92,15 +91,17 @@ kita gunakan topologi berikut:
   
   <img width="673" height="263" alt="Screenshot 2026-07-26 184809" src="https://github.com/user-attachments/assets/ccd80cd7-a6c1-4ebf-ad1e-83381d08daf4" />
 
-  </li>
+
+   </li>
     <li>Login ulang ke dalam winbox, ketika login ulang tambahkan ":(port) di ujung ip pada tab connect to", dan jangan lupa pastikan ip pc nya sesuai dengan ip yang sudah kita tambahkan tadi di menu available from.
 
-<img width="356" height="127" alt="Screenshot 2026-07-26 191420" src="https://github.com/user-attachments/assets/994ec9bf-a70f-452b-be38-35a42342b0a5" />
+ <img width="356" height="127" alt="Screenshot 2026-07-26 191420" src="https://github.com/user-attachments/assets/994ec9bf-a70f-452b-be38-35a42342b0a5" />
 
-<img width="511" height="113" alt="Screenshot 2026-07-26 190411" src="https://github.com/user-attachments/assets/360badca-660e-4788-9011-b001bb6f64c9" />
+ <img width="511" height="113" alt="Screenshot 2026-07-26 190411" src="https://github.com/user-attachments/assets/360badca-660e-4788-9011-b001bb6f64c9" />
 
-<img width="959" height="474" alt="Screenshot 2026-07-26 191550" src="https://github.com/user-attachments/assets/e43eeed6-80f1-44df-a616-fd242b99580a" />
+ <img width="959" height="474" alt="Screenshot 2026-07-26 191550" src="https://github.com/user-attachments/assets/e43eeed6-80f1-44df-a616-fd242b99580a" />
 
+    
 </li>
 </ol>
 
