@@ -75,24 +75,24 @@ kita gunakan topologi berikut:
 
   <img width="777" height="502" alt="Screenshot 2026-07-26 184432-" src="https://github.com/user-attachments/assets/385644b1-7e82-4e5e-9251-a613c106eee7" />
 
-  <li>Ganti port winbox sesuai kebutuhan, bisa diisi dari 1-65535 semua port itu bisa digunakan dengan catatan tidak menggunakan port yang sudah digunakan aplikasi lain, bisa saja kita menggunakan port yang sudah digunakan namun kedepannya ini bakal menjadi masalah, jadi disarankan untuk menggunakan port yang belum digunakan aplikasi lain. untuk informasi portnya bisa didapatkan<a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"> di sini.</a> tapi untuk kali ini saya akan menggunakan port 9000 untuk service winbox ini
+  <li>Ganti port winbox sesuai kebutuhan, bisa diisi dari 1-65535 semua port itu bisa digunakan dengan catatan tidak menggunakan port yang sudah digunakan aplikasi lain, bisa saja kita menggunakan port yang sudah digunakan namun kedepannya ini bakal menjadi masalah, jadi disarankan untuk menggunakan port yang belum digunakan aplikasi lain. untuk informasi portnya bisa didapatkan<a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"> di sini.</a> tapi untuk kali ini saya akan menggunakan port 9000 untuk service winbox ini</li>
   
   
 <img width="200" height="155" alt="Screenshot 2026-07-26 184628" src="https://github.com/user-attachments/assets/a230db0e-f8ed-469e-854a-eb2ee38c11cd" />
 
-  </li>
-  <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal. klik apply > ok
+
+  <li>Membatasi akses winbox. kita tambahkan <b>available from</b> isi menggunakan ip jaringan lokal. klik apply > ok</li>
   
   <img width="295" height="157" alt="Screenshot 2026-07-26 184652" src="https://github.com/user-attachments/assets/d5e57de8-3287-4173-bbd0-0d101a9231f7" />
 
-  </li>
-  <li>Disable services yang tidak digunakan. Jika kita hanya menggunakan service winbox saja untuk meremote kita bisa disable atau nonaktifkan services lain yang tidak digunakan. Gunanya agar router kita menjadi lebih aman.
+
+  <li>Disable services yang tidak digunakan. Jika kita hanya menggunakan service winbox saja untuk meremote kita bisa disable atau nonaktifkan services lain yang tidak digunakan. Gunanya agar router kita menjadi lebih aman.</li>
   
   <img width="673" height="263" alt="Screenshot 2026-07-26 184809" src="https://github.com/user-attachments/assets/ccd80cd7-a6c1-4ebf-ad1e-83381d08daf4" />
 
 
-   </li>
-    <li>Login ulang ke dalam winbox, ketika login ulang tambahkan ":(port) di ujung ip pada tab connect to", dan jangan lupa pastikan ip pc nya sesuai dengan ip yang sudah kita tambahkan tadi di menu available from.
+   
+<li>Login ulang ke dalam winbox, ketika login ulang tambahkan ":(port) di ujung ip pada tab connect to", dan jangan lupa pastikan ip pc nya sesuai dengan ip yang sudah kita tambahkan tadi di menu available from.</li>
 
  <img width="356" height="127" alt="Screenshot 2026-07-26 191420" src="https://github.com/user-attachments/assets/994ec9bf-a70f-452b-be38-35a42342b0a5" />
 
@@ -100,8 +100,6 @@ kita gunakan topologi berikut:
 
  <img width="959" height="474" alt="Screenshot 2026-07-26 191550" src="https://github.com/user-attachments/assets/e43eeed6-80f1-44df-a616-fd242b99580a" />
 
-    
-</li>
 </ol>
 
 <hr>
