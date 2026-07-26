@@ -22,12 +22,11 @@ Static Lease adalah fitur pada DHCP Server yang digunakan untuk mengikat sebuah 
 
 
 Selain itu static leases ini juga bisa digunakan untuk limitasi bandwidth juga. Berikut caranya:
-<h4>Limitasi bandwidth menggunakan static leases</h4>
+<h3>Limitasi bandwidth menggunakan static leases</h3>
 <ol>
   <li>Masuk ke menu: IP > DHCP Server > leases</li>
   <li>Klik pada MAC Address perangkat yang mau dibuat limitasi bandwidth.</li>
   <li>Isikan kolom rate limit sesuai kebutuhan. Di sini saya isi dengan 1M/2M (artinya limit download 1 Mbps dan limit upload 2 Mbps). Klik Apply lalu ok</li>
-
 </ol>
 
 <hr>
