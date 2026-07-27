@@ -25,11 +25,19 @@ Static Lease adalah fitur pada DHCP Server yang digunakan untuk mengikat sebuah 
 <ol>
   <li>Pastikan kalian sudah membuat DHCP Server sebelumnya. Masuk ke menu IP > DHCP Server > Leases</li>
 
-  
-  <li>Klik add (+)</li>
-  <li>Kemudian isi IP address sesuai keinginan asal masih berada dalam rentang DHCP pool, isikan juga MAC Address dengan MAC Address perangkat yang ingin kalian tambahkan. Untuk lengkapnya seperti ini.</li>
+<img width="959" height="496" alt="Screenshot 2026-07-27 180115" src="https://github.com/user-attachments/assets/fd7e7d90-6954-4dea-aef3-cdf060cfc9b2" />
+
+<img width="731" height="281" alt="Screenshot 2026-07-27 183542" src="https://github.com/user-attachments/assets/e17b3f15-f534-4a4b-8bfe-d09b3fde065c" />
+
+  <li>Klik add (+). Kemudian isi IP address sesuai keinginan asal masih berada dalam rentang DHCP pool, isikan juga MAC Address dengan MAC Address perangkat yang ingin kalian tambahkan. Untuk lengkapnya seperti ini.</li>
+
+  <img width="303" height="366" alt="Screenshot 2026-07-27 185442" src="https://github.com/user-attachments/assets/96118e6c-adfa-4e6e-8086-77f6b875646d" />
+
   <li>Kemudian klik Apply lalu ok</li>
-  <li>Kita coba hubungkan perangkat yang tadi sudah kita tambahkan MAC Addressnya, lalu kita cek IP nya.</li>
+  <li>Kita coba hubungkan menggunakan perangkat yang tadi sudah kita tambahkan MAC Addressnya, lalu kita cek IP nya.</li>
+
+  <img width="270" height="334" alt="Screenshot 2026-07-27 185633" src="https://github.com/user-attachments/assets/fb6a8994-1421-45dd-856f-fda9410dee3f" />
+
 </ol>
 
 
