@@ -24,7 +24,7 @@ Dengan DHCP Client, MikroTik akan memperoleh: IP Address, Gateway, DNS Server da
 
   <img width="335" height="281" alt="Screenshot 2026-07-27 175035" src="https://github.com/user-attachments/assets/60e9dea2-adf2-4c92-b53a-bd4c864f0551" />
 
-  <li>Tunggu hingga stasnya bound</li>
+  <li>Tunggu hingga statusnya bound</li>
 
  <img width="352" height="281" alt="Screenshot 2026-07-27 175050" src="https://github.com/user-attachments/assets/23151d09-a09c-4ef7-b385-768ebd0dcc34" />
  
