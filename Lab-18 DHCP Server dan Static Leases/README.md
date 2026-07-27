@@ -45,8 +45,19 @@ Selain itu static leases ini juga bisa digunakan untuk limitasi bandwidth juga. 
 <h3>Limitasi bandwidth menggunakan static leases</h3>
 <ol>
   <li>Masuk ke menu: IP > DHCP Server > leases</li>
-  <li>Klik pada MAC Address perangkat yang mau dibuat limitasi bandwidth.</li>
-  <li>Isikan kolom rate limit sesuai kebutuhan. Di sini saya isi dengan 1M/2M (artinya limit download 1 Mbps dan limit upload 2 Mbps). Klik Apply lalu ok</li>
+
+<img width="959" height="496" alt="Screenshot 2026-07-27 180115" src="https://github.com/user-attachments/assets/fd7e7d90-6954-4dea-aef3-cdf060cfc9b2" />
+
+<img width="731" height="281" alt="Screenshot 2026-07-27 183542" src="https://github.com/user-attachments/assets/e17b3f15-f534-4a4b-8bfe-d09b3fde065c" />
+
+  <li>Klik pada MAC Address perangkat yang mau dibuat limitasi bandwidth. >Isikan kolom rate limit sesuai kebutuhan. Di sini saya isi dengan 1M/2M (artinya limit download 1 Mbps dan limit upload 2 Mbps). Klik Apply lalu ok</li>
+
+  <img width="304" height="362" alt="Screenshot 2026-07-27 190526" src="https://github.com/user-attachments/assets/a1bbccd5-85be-41d2-8e89-10ce3493b286" />
+
+  <li>Maka akan otomatis ada di simple queue</li>
+
+  <img width="458" height="281" alt="Screenshot 2026-07-27 190544" src="https://github.com/user-attachments/assets/a202f41a-14e6-4839-a0e1-bc90c4b3424e" />
+
 </ol>
 
 <hr>
