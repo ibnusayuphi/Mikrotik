@@ -1,4 +1,4 @@
-<img width="350" height="314" alt="Screenshot 2026-07-27 191734" src="https://github.com/user-attachments/assets/e466b5da-0bec-4083-a526-523a8b10c75e" /><h1>Lab 20 Bridging</h1>
+<h1>Lab 20 Bridging</h1>
 
 <h3>Bridge pada MikroTik</h3>
 Bridge adalah fitur pada MikroTik yang digunakan untuk menggabungkan beberapa interface menjadi satu jaringan. Misalkan kita memasukan interface ether1 dan ether2 ke dalam bridge yang sama, bisa diartikan interface itu sudah tidak ada namun adanya bridge yang berisikan interface tersebut. Bridge juga bisa diibaratkan sebagai grup lah gampangnya. Jadi misal kita menambahkan IP lalu di arahkan pada interface bridge, maka yang mendapatkan konfigurasi tersebut adalah semua interface yang ada pada bridge tersebut, dalam contoh ini yaitu ether1 dan ether2.
