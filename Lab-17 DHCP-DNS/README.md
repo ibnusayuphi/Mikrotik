@@ -77,8 +77,17 @@ DNS (Domain Name System) adalah layanan yang mengubah nama domain menjadi IP Add
 <h4>konfigurasi DNS pada MikroTik</h4>
 <ol>
   <li>Masuk ke menu: IP > DNS</li>
+
+  <img width="959" height="502" alt="Screenshot 2026-07-27 181631" src="https://github.com/user-attachments/assets/02ec196e-f53a-49e4-9f98-6ca8848b6386" />
+
   <li>Masukan DNS Server, di sini saya akan memasukan dns google dan cloudflare karena ini biasa yang sering digunakan. disesuaikan saja ya</li>
+
+  <img width="323" height="317" alt="Screenshot 2026-07-27 181712" src="https://github.com/user-attachments/assets/1dbdccf0-7bb2-4ba8-9493-43e3252d16ca" />
+
   <li>Kemudian centang: Allow Remote Requests. Allow Remote Requests</li>
+
+  <img width="326" height="333" alt="Screenshot 2026-07-27 181734" src="https://github.com/user-attachments/assets/e6085349-ab39-450f-94f1-17d8ad2fb8f8" />
+
 </ol>
 
 <hr>
