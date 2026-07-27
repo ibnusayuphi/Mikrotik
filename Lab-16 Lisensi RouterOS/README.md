@@ -101,7 +101,7 @@ Level 6 merupakan lisensi tertinggi pada RouterOS dengan seluruh fitur yang ters
 <b>Mengunakan Winbox</b><br>
 Buka menu: system > license<br>
 
-<img width="959" height="504" alt="Screenshot 2026-07-27 173927" src="https://github.com/user-attachments/assets/b92ee380-8f83-45d8-bc0e-be59a999a7a0" />
+<img width="959" height="504" alt="Screenshot 2026-07-27 173927" src="https://github.com/user-attachments/assets/4d767c3c-680b-416d-ba48-3dbd23ba0cab" />
 
 <b>Menggunakan terminal</b><br>
 ketik: system license print
