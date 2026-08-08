@@ -55,10 +55,11 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
   <li>Kemudian klik install.</li>
   
 <img width="512" height="356" alt="Screenshot 2026-08-08 121439-2" src="https://github.com/user-attachments/assets/fa14ac0a-13ee-42ab-9021-a22c43cc6ef4" />
-</ol>
   
   <li>Ketika proses instalasi sudah selesai maka Router akan melakukan reboot otomatis</li>
   
 <img width="514" height="355" alt="Screenshot 2026-08-08 121605" src="https://github.com/user-attachments/assets/04d22fbd-3ea9-43d8-8219-119345126aaa" />
 
   <li>Setelah proses reboot selesai kita akan mencoba remote menggunakan winbox</li>
+
+</ol>
