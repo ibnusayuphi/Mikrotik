@@ -21,7 +21,7 @@ Sebelum melakukan install ulang pastikan sudah memiliki apa yang dibutuhkan yait
 
 <h2>Insatll ulang RouterOS pada hAP lite</h2>
 Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-2HND, namun yang membedakannya hanya architecturenya saja. pada versi hAP lite architecturenya menggunakan smpips. maka dari itu file RouterOS yang kita butuhkan juga berbeda dengan yang sebelumnya.
-
+<ol>
  <li>Masuk ke netinstall</li>
  <img width="511" height="355" alt="Screenshot 2026-08-07 135722" src="https://github.com/user-attachments/assets/eaf37cfa-9c1a-4654-9d91-78099da6c7a0" />
 
@@ -48,7 +48,7 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
   
   <li>Kemudian klik install.</li>
 <img width="512" height="356" alt="Screenshot 2026-08-08 121439-2" src="https://github.com/user-attachments/assets/fa14ac0a-13ee-42ab-9021-a22c43cc6ef4" />
-
+</ol>
   
   <li>Ketika sudah selesai Router akan melakukan reboot otomatis</li>
   <li>Setelah proses reboot selesai kita akan mencoba remote menggunakan winbox</li>
