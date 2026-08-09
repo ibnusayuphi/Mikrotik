@@ -36,15 +36,16 @@ Sebelum melakukan install ulang pastikan sudah memiliki apa yang dibutuhkan yait
 
   <li>Ketika sudah selesai Router akan melakukan reboot otomatis</li>
    <li>Install ulang RouterOs sudah berhasil, langsung kita coba remote menggunakan winbox</li>
-<img width="959" height="308" alt="Screenshot 2026-08-09 212925" src="https://github.com/user-attachments/assets/11c1df53-692e-47f9-99a6-fbb6b8e78716" />
-<img width="539" height="279" alt="Screenshot 2026-08-09 213028" src="https://github.com/user-attachments/assets/0a1a44cb-3f40-4c46-be41-6e3f63ab416b" />
+<img width="479" height="154" alt="Screenshot 2026-08-09 212925" src="https://github.com/user-attachments/assets/11c1df53-692e-47f9-99a6-fbb6b8e78716" />
+<img width="274" height="140" alt="Screenshot 2026-08-09 213028" src="https://github.com/user-attachments/assets/0a1a44cb-3f40-4c46-be41-6e3f63ab416b" />
+
 Saat pertama kali install ulang package yang terinstall hanya routeros saja. Kita bisa tambahkan package yang lainnya.
 
    
 </ol>
 
 <h2>Insatll ulang RouterOS pada hAP lite</h2>
-Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-2HND, namun yang membedakannya hanya architecturenya saja. pada versi hAP lite architecturenya menggunakan smpips. maka dari itu file RouterOS yang kita butuhkan juga berbeda dengan yang sebelumnya.
+Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-2HND, namun yang membedakannya hanya architecturenya saja. pada versi hAP lite architecturenya menggunakan smips. maka dari itu file RouterOS yang kita butuhkan juga berbeda dengan yang sebelumnya.
 <ol>
  <li>Masuk ke netinstall</li>
   
