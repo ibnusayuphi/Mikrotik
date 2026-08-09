@@ -31,9 +31,8 @@ Kita akan membatasi akses client menggunakan firewall filter rule
   <li>Setelah itu kita akan membatasi agar hanya admin yang dapat terhubung ke winbox menggunakan MAC Address. tools > MAC server</li>
 <img width="310" height="262" alt="Screenshot 2026-08-09 193519-2" src="https://github.com/user-attachments/assets/4ee11b89-6f0f-41da-af4d-5cd3633e7a69" />
 
-<img width="230" height="81" alt="Screenshot 2026-08-09 193535" src="https://github.com/user-attachments/assets/77da839f-bfdd-4d8a-9e2e-d2352186a3db" />
-
-<img width="232" height="83" alt="Screenshot 2026-08-09 193550" src="https://github.com/user-attachments/assets/152dfb2e-33de-4a74-ba45-c2b53acb6d38" />
+<img width="230" height="81" alt="Screenshot 2026-08-09 193535" src="https://github.com/user-attachments/assets/77da839f-bfdd-4d8a-9e2e-d2352186a3db"
+img width="232" height="83" alt="Screenshot 2026-08-09 193550" src="https://github.com/user-attachments/assets/152dfb2e-33de-4a74-ba45-c2b53acb6d38" />
 
 Dengan ini klien sudah tidak dapat terhubung ke router mikrotik baik menggunakan ip ataupun mac address.
   <li>Pengujian. remote mikrotik menggunakan interface yang digunakan client (ether3, ether4,)atau yang ada pada bridge-LAN</li>
