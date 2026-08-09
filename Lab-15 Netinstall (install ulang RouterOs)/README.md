@@ -91,3 +91,6 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
 Saat pertama kali install ulang package yang terinstall hanya routeros saja. Kita bisa tambahkan package yang lainnya.
 
 </ol>
+
+<h2>Kesimpulan</h2>
+Netinstall adalah software yang digunakan untuk melakukan install ulang RouterOS pada MikroTik. Netinstall biasanya digunakan ketika router mengalami masalah. Dalam prosesnya kita perlu menyiapkan aplikasi Netinstall dan RouterOS yang sesuai dengan arsitektur router.
