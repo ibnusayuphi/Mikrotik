@@ -45,3 +45,6 @@ Dengan ini klien sudah tidak dapat terhubung ke router mikrotik baik menggunakan
 
 Hasilnya client tidak bisa remote ke mikrotik namun tetap terhubung ke internet  
 </ol>
+<tr>
+<h2>Kesimpulan</h2>
+Dengan konfigurasi ini, admin masih bisa mengakses dan mengelola router menggunakan MAC maupun IP, sedangkan client tidak bisa masuk ke router, tetapi tetap bisa menggunakan koneksi internet.
