@@ -44,7 +44,6 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
   <li>Kalau MikroTik sudah muncul di Netinstall, pilih perangkat tersebut. Kemudian klik browse, dan pilih folder yang berisi file RouterOS. Kalo saya menyimpannya pada folder download
     
 <img width="514" height="356" alt="Screenshot 2026-08-08 121402-2" src="https://github.com/user-attachments/assets/15baf458-68a4-4172-81ac-3eaf276f1d11" />
-
 <img width="238" height="238" alt="Screenshot 2026-08-08 121419" src="https://github.com/user-attachments/assets/d442564d-e45e-4c2b-be75-5741bc333604" />
 
   <li>Setelah package muncul, pilih versi RouterOS yang ingin digunakan.</li>
