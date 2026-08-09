@@ -6,17 +6,41 @@ Netinstall adalah software dari MikroTik yang digunakan untuk menginstal ulang R
 Sebelum melakukan install ulang pastikan sudah memiliki apa yang dibutuhkan yaitu: Software Netinstall dan file RouterOS yang ingin kita install, pastikan architecturenya sesuai dengan RouterBoard yang akan di install ulang. Pada RB951ui-2HND ini menggunakan architecture mipsbe, maka kita download file RouterOS dengan architecture mipsbe.
 <ol>
   <li>Masuk ke netinstall</li>
-  <li>Isi net booting dengan ip berikut.</li>
+  <img width="511" height="355" alt="Screenshot 2026-08-07 135722" src="https://github.com/user-attachments/assets/f9af2c23-dfe0-4931-8418-b480d1161fee" />
+
+  <li>Aktifkan dan isi net booting dengan ip berikut.</li>
+
+<img width="304" height="132" alt="Screenshot 2026-08-08 120941" src="https://github.com/user-attachments/assets/05a62516-7c27-4eb5-af49-40c0e9cdd3e8" />
+
+  
   <li>Ubah ip pada laptop atau pc kita juga menggunakan ip yang satu network dengan ip net booting yang telah kita masukan tadi.</li>
+<img width="298" height="340" alt="Screenshot 2026-08-08 144211" src="https://github.com/user-attachments/assets/c21204fd-2b7a-4c8b-a469-c8f5fc68f218" />
+
+  
   <li>Untuk melakukan Install ulang, kita harus terhubung ke mikrotik melalui port ether1.</li>
   <li>Lakukan hard reset, tekan tombol sedikit lebih lama dari biasanya.</li>
   <li>Mikrotik akan masuk ke mode boot. Dan akan perangkatnya akan langsung terbaca pada netinstall.</li>
-  <li>Klik pada Router kita.</li>
-  <li>Kemudian klik browse untuk mengarahkan pada folder mana kita menyimpan file RouterOS. Di sini saya menyimpannya pada folder download. Netinstall akan otomatis memilih file yang sesuai.
-  <li>Klik pada file RouterOS yang sudah kita download sebelumnya.</li>
+<img width="511" height="356" alt="Screenshot 2026-08-09 212323" src="https://github.com/user-attachments/assets/b01259da-e3b9-43ae-b2cf-76fb63368fd4" />
+
+  
+ <li>Kalau MikroTik sudah muncul di Netinstall, pilih perangkat tersebut. Kemudian klik browse, dan pilih folder yang berisi file RouterOS. Kalo saya menyimpannya pada folder download</li>
+ <img width="514" height="355" alt="Screenshot 2026-08-09 212344-2" src="https://github.com/user-attachments/assets/757f6d99-4964-4f38-acc8-3eddda8b7c26" />
+
+<img width="238" height="238" alt="Screenshot 2026-08-08 121419" src="https://github.com/user-attachments/assets/f2f15057-8a87-446e-88cd-ce11a3f9dfb3" />
+
+ <li>Setelah package muncul, pilih versi RouterOS yang ingin digunakan.</li>
+  <img width="511" height="354" alt="Screenshot 2026-08-09 212359" src="https://github.com/user-attachments/assets/0f93e2ad-70bd-46b5-94d7-19f6eb4495de" />
+
   <li>Kemudian klik install.</li>
+  <img width="511" height="354" alt="Screenshot 2026-08-09 212359-2" src="https://github.com/user-attachments/assets/ef5abf54-574b-4619-9bb9-42d743dbb916" />
+
   <li>Ketika sudah selesai Router akan melakukan reboot otomatis</li>
-  <li>Setelah proses reboot selesai kita akan mencoba remote menggunakan winbox</li>
+   <li>Install ulang RouterOs sudah berhasil, langsung kita coba remote menggunakan winbox</li>
+<img width="959" height="308" alt="Screenshot 2026-08-09 212925" src="https://github.com/user-attachments/assets/11c1df53-692e-47f9-99a6-fbb6b8e78716" />
+<img width="539" height="279" alt="Screenshot 2026-08-09 213028" src="https://github.com/user-attachments/assets/0a1a44cb-3f40-4c46-be41-6e3f63ab416b" />
+Saat pertama kali install ulang package yang terinstall hanya routeros saja. Kita bisa tambahkan package yang lainnya.
+
+   
 </ol>
 
 <h2>Insatll ulang RouterOS pada hAP lite</h2>
@@ -37,7 +61,6 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
   <li>Hubungkan laptop atau pc dengan router melalui port ether1.</li>
   <li>Lakukan hard reset, tekan tombol sedikit lebih lama dari biasanya.</li>
   <li>Mikrotik akan masuk ke mode boot. Dan akan perangkatnya akan langsung terbaca pada netinstall.</li>
-  
  <img width="514" height="356" alt="Screenshot 2026-08-08 121402" src="https://github.com/user-attachments/assets/d8090b3d-a3c0-4a33-afaf-6243e3e3851e" />
 
  
@@ -59,6 +82,11 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
   
 <img width="514" height="355" alt="Screenshot 2026-08-08 121605" src="https://github.com/user-attachments/assets/04d22fbd-3ea9-43d8-8219-119345126aaa" />
 
-  <li>Setelah proses reboot selesai kita akan mencoba remote menggunakan winbox</li>
+  <li>Install ulang RouterOs sudah berhasil, langsung kita coba remote menggunakan winbox</li>
+  <img width="959" height="308" alt="Screenshot 2026-08-08 121631" src="https://github.com/user-attachments/assets/4a893ec0-967f-488e-a78f-eb1f6577415c" />
+  
+<img width="539" height="280" alt="Screenshot 2026-08-08 122316" src="https://github.com/user-attachments/assets/86fa06de-6ac6-4a9d-b0a5-269e9773fb0e" />
+
+Saat pertama kali install ulang package yang terinstall hanya routeros saja. Kita bisa tambahkan package yang lainnya.
 
 </ol>
