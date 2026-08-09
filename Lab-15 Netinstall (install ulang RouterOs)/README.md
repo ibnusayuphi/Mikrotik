@@ -84,9 +84,9 @@ Untuk melakukan install ulang pada router ini caranya sama seperti pada RB951ui-
 <img width="514" height="355" alt="Screenshot 2026-08-08 121605" src="https://github.com/user-attachments/assets/04d22fbd-3ea9-43d8-8219-119345126aaa" />
 
   <li>Install ulang RouterOs sudah berhasil, langsung kita coba remote menggunakan winbox</li>
-  <img width="959" height="308" alt="Screenshot 2026-08-08 121631" src="https://github.com/user-attachments/assets/4a893ec0-967f-488e-a78f-eb1f6577415c" />
+  <img width="479" height="154" alt="Screenshot 2026-08-08 121631" src="https://github.com/user-attachments/assets/4a893ec0-967f-488e-a78f-eb1f6577415c" />
   
-<img width="539" height="280" alt="Screenshot 2026-08-08 122316" src="https://github.com/user-attachments/assets/86fa06de-6ac6-4a9d-b0a5-269e9773fb0e" />
+<img width="270" height="140" alt="Screenshot 2026-08-08 122316" src="https://github.com/user-attachments/assets/86fa06de-6ac6-4a9d-b0a5-269e9773fb0e" />
 
 Saat pertama kali install ulang package yang terinstall hanya routeros saja. Kita bisa tambahkan package yang lainnya.
 
