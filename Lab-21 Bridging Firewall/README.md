@@ -23,7 +23,7 @@ Kita akan membatasi akses client menggunakan firewall filter rule
 <img width="176" height="134" alt="Screenshot 2026-08-09 193357" src="https://github.com/user-attachments/assets/e8f04d60-cba9-46db-8907-c716f1a83054" />
 
   <li>Masukan interface ether2 pada list admin yang tadi sudah kita buat</li>
-<img width="959" height="426" alt="Screenshot 2026-08-09 193334" src="https://github.com/user-attachments/assets/ad7ebcc8-79e5-4f44-849a-2b0568b32fbe" />
+<img width="479" height="213" alt="Screenshot 2026-08-09 193334" src="https://github.com/user-attachments/assets/ad7ebcc8-79e5-4f44-849a-2b0568b32fbe" />
 
 <img width="197" height="165" alt="Screenshot 2026-08-09 193418" src="https://github.com/user-attachments/assets/2e8ddc5f-b417-4f48-ba09-8a4ffd2fa769" />
 
