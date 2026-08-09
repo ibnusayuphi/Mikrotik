@@ -18,7 +18,7 @@ Kita akan membatasi akses client menggunakan firewall filter rule
 
    arti dari rule tersebut adalah, jika ada data yang masuk ke router(input) melalui interface bridge-LAN(in.interface: bridge-LAN) maka akan dibuang secara senyap(action: drop)
   <li>Buat interface list untuk admin. interface > interface list > list</li>
-<img width="959" height="426" alt="Screenshot 2026-08-09 193334-2" src="https://github.com/user-attachments/assets/ec0b485b-a136-4592-9602-0bd2eb657b53" />
+<img width="479" height="213" alt="Screenshot 2026-08-09 193334-2" src="https://github.com/user-attachments/assets/ec0b485b-a136-4592-9602-0bd2eb657b53" />
 
 <img width="176" height="134" alt="Screenshot 2026-08-09 193357" src="https://github.com/user-attachments/assets/e8f04d60-cba9-46db-8907-c716f1a83054" />
 
