@@ -36,4 +36,12 @@ Kita akan membatasi akses client menggunakan firewall filter rule
 
 Dengan ini klien sudah tidak dapat terhubung ke router mikrotik baik menggunakan ip ataupun mac address.
   <li>Pengujian. remote mikrotik menggunakan interface yang digunakan client (ether3, ether4,)atau yang ada pada bridge-LAN</li>
+  
+<img width="959" height="230" alt="Screenshot 2026-08-09 200114" src="https://github.com/user-attachments/assets/26313d17-90b9-48ef-8295-1cbfd232aded" />
+
+<img width="959" height="254" alt="Screenshot 2026-08-09 200130" src="https://github.com/user-attachments/assets/2cfb6bfd-1b64-44fb-97c8-cf8dc3369e71" />
+
+<img width="482" height="391" alt="Screenshot 2026-08-09 200231" src="https://github.com/user-attachments/assets/da7e4eb5-58aa-432c-8fb0-a2a24f7cf61b" />
+
+Hasilnya client tidak bisa remote ke mikrotik namun tetap terhubung ke internet  
 </ol>
