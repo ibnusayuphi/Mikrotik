@@ -18,14 +18,19 @@ Pada chain ini kita bisa memblokir akses client ke router mikrotik, seperti pada
 
 <img width="293" height="206" alt="Screenshot 2026-08-09 193308" src="https://github.com/user-attachments/assets/6f1b7ad7-05c6-4da9-a503-f767939c383e" />
 
-
+arti dari rule tersebut adalah, jika ada data yang masuk ke router(input) melalui interface bridge-LAN(in.interface: bridge-LAN) maka akan dibuang secara senyap(action: drop)
   <li>Pengujian</li>
+<img width="959" height="230" alt="Screenshot 2026-08-09 200114" src="https://github.com/user-attachments/assets/978bec86-ca63-44eb-a19e-0a5140ec62e5" />
+
+  Dengan ini client tidak dapat mengakses router mikrotik tetapi tetap terkoneksi ke internet.
 </ol>
 
 <h3>2. Chain: forward</h3>
 Pada chain ini kita bisa memblokir akses client menuju internet. Seperti ini konfigurasinya:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
+    <img width="759" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
+
   <li>Buat rule seperti ini:</li>
   <li>Pengujian</li>
 </ol>
@@ -34,6 +39,7 @@ Pada chain ini kita bisa memblokir akses client menuju internet. Seperti ini kon
 Pada chain ini kita bisa membatasi router agar tidak mengakses server tertentu. Seperti ini konfigurasi:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
+  
   <li>Buat rule seperti ini:</li>
   <li>Pengujian</li>
 </ol>
