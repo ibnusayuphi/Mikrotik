@@ -37,6 +37,7 @@ Pada chain ini kita bisa memblokir akses client menuju internet. Seperti ini kon
 <img width="296" height="185" alt="Screenshot 2026-08-11 222059" src="https://github.com/user-attachments/assets/a5ba8a10-dee4-4f9b-86c1-5e97a3d27e14" />
 
 arti dari rule tersebut adalah, jika ada data yang diteruskan oleh router(forward) yang berasal dari ip 192.168.0.1/24(Src.Address:  192.168.0.1/24) maka paket akan dibuang secara senyap(action: drop)
+
   <li>Pengujian</li>
 <img width="496" height="155" alt="Screenshot 2026-08-11 222119" src="https://github.com/user-attachments/assets/841614eb-4eb5-4af1-9ad8-eb8e90c1116b" />
 
