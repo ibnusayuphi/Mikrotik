@@ -29,7 +29,7 @@ arti dari rule tersebut adalah, jika ada data yang masuk ke router(input) melalu
 Pada chain ini kita bisa memblokir akses client menuju internet. Seperti ini konfigurasinya:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
-    <img width="759" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
+    <img width="659" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
 
   <li>Buat rule seperti ini:</li>
   <li>Pengujian</li>
