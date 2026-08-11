@@ -11,7 +11,14 @@ Firewall pada MikroTik adalah fitur yang digunakan untuk mengatur dan menyaring 
 Pada chain ini kita bisa memblokir akses client ke router mikrotik, seperti pada lab 21. Seperi ini konfigurasinya:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
+  <img width="959" height="488" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
+
   <li>Buat rule seperti ini:</li>
+  <img width="295" height="233" alt="Screenshot 2026-08-09 193249" src="https://github.com/user-attachments/assets/4d6ad623-5685-48df-a156-d78955e7dfe5" />
+
+<img width="293" height="206" alt="Screenshot 2026-08-09 193308" src="https://github.com/user-attachments/assets/6f1b7ad7-05c6-4da9-a503-f767939c383e" />
+
+
   <li>Pengujian</li>
 </ol>
 
