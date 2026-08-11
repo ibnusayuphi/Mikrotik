@@ -53,6 +53,7 @@ Pada chain ini kita bisa membatasi router agar tidak mengakses server tertentu. 
 <img width="295" height="192" alt="Screenshot 2026-08-11 222433" src="https://github.com/user-attachments/assets/8db01c91-a10a-4c6f-92f7-012f4b897851" />
 
 <img width="298" height="185" alt="Screenshot 2026-08-11 223743" src="https://github.com/user-attachments/assets/28d0d01b-7e78-46e5-976f-0c46aa5cbe45" />
+
 arti dari rule tersebut adalah, jika ada data yang keluar dari router sendiri(output) yang menuju ke 8.8.8.8(Dst.Address: 8.8.8.8) maka paket akan dibuang secara senyap(action: drop)
   
   <li>Pengujian</li>
