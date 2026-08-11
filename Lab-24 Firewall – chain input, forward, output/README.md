@@ -11,7 +11,7 @@ Firewall pada MikroTik adalah fitur yang digunakan untuk mengatur dan menyaring 
 Pada chain ini kita bisa memblokir akses client ke router mikrotik, seperti pada lab 21. Seperi ini konfigurasinya:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
-  <img width="959" height="488" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
+  <img width="659" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
 
   <li>Buat rule seperti ini:</li>
   <img width="295" height="233" alt="Screenshot 2026-08-09 193249" src="https://github.com/user-attachments/assets/4d6ad623-5685-48df-a156-d78955e7dfe5" />
@@ -32,16 +32,35 @@ Pada chain ini kita bisa memblokir akses client menuju internet. Seperti ini kon
     <img width="659" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
 
   <li>Buat rule seperti ini:</li>
+  <img width="296" height="197" alt="Screenshot 2026-08-11 222050" src="https://github.com/user-attachments/assets/0725b2d1-c15d-4120-acd5-abac8bb1419c" />
+
+<img width="296" height="185" alt="Screenshot 2026-08-11 222059" src="https://github.com/user-attachments/assets/a5ba8a10-dee4-4f9b-86c1-5e97a3d27e14" />
+
+arti dari rule tersebut adalah, jika ada data yang diteruskan oleh router(forward) yang berasal dari ip 192.168.0.1/24(Src.Address:  192.168.0.1/24) maka paket akan dibuang secara senyap(action: drop)
   <li>Pengujian</li>
+<img width="496" height="155" alt="Screenshot 2026-08-11 222119" src="https://github.com/user-attachments/assets/841614eb-4eb5-4af1-9ad8-eb8e90c1116b" />
+
 </ol>
 
 <h3>3. chain: output</h3>
 Pada chain ini kita bisa membatasi router agar tidak mengakses server tertentu. Seperti ini konfigurasi:
 <ol>
   <li>masuk ke menu ip > firewall > filter rule kemudian klik Add(+)</li>
+  <img width="659" height="288" alt="Screenshot 2026-08-11 221251-2" src="https://github.com/user-attachments/assets/a5e2e6e0-4078-490e-94e7-83c6103cd0aa" />
   
   <li>Buat rule seperti ini:</li>
+<img width="295" height="192" alt="Screenshot 2026-08-11 222433" src="https://github.com/user-attachments/assets/8db01c91-a10a-4c6f-92f7-012f4b897851" />
+
+<img width="298" height="185" alt="Screenshot 2026-08-11 223743" src="https://github.com/user-attachments/assets/28d0d01b-7e78-46e5-976f-0c46aa5cbe45" />
+arti dari rule tersebut adalah, jika ada data yang keluar dari router sendiri(output) yang menuju ke 8.8.8.8(Dst.Address: 8.8.8.8) maka paket akan dibuang secara senyap(action: drop)
+  
   <li>Pengujian</li>
+<img width="449" height="96" alt="Screenshot 2026-08-11 222342" src="https://github.com/user-attachments/assets/24cf43cf-13f1-40cf-a66a-5c0f4be8afe6" />
+
+<img width="563" height="182" alt="Screenshot 2026-08-11 222407" src="https://github.com/user-attachments/assets/8d7b5396-92d9-4be5-902f-ed940be50a45" />
+
+Paket akan ditolak ketika paket keluar langsung dari router itu sendiri. Jadi ini tidak akan berpengaruh kepada client, karena kalo paket yang dikirim oleh client itu diteruskan oleh router(forward), bukan keluar langsung dari router (output).
+  
 </ol>
 
 <h2>Kesimpulan</h2>
