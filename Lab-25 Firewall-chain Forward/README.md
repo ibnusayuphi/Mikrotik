@@ -8,7 +8,7 @@ Jadi pada topologi ini klien hany bisa mengakses web mikrotik.com dan tidak akan
   <li>Tambahkan address list untuk website yang akan kita izinkan untuk diakses klien</li>
   <img width="254" height="163" alt="Screenshot 2026-08-16 205154" src="https://github.com/user-attachments/assets/05162138-3bc2-4e98-a175-aa17a7012bdb" />
 
-<img width="679" height="280" alt="Screenshot 2026-08-16 205207" src="https://github.com/user-attachments/assets/3f462028-ade7-4467-b35d-163d974edd06" />
+<img width="579" height="250" alt="Screenshot 2026-08-16 205207" src="https://github.com/user-attachments/assets/3f462028-ade7-4467-b35d-163d974edd06" />
 
   <li>Buat rule firewall untuk membatasi akses client. Di sini kita akan membuat 2 rule, yang pertama untuk protocol tcp dan yang kedua untuk protocol udp. kenapa kita membuat dua rule seperti ini? karena di beberapa browser juga bisa menggunakan udp, jadi dengan membuat 2 rule ini akan lebih efektif.</li>
   <ul>
